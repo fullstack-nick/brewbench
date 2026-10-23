@@ -31,7 +31,9 @@ The first smoke harness incorrectly expected a top-level `Product`; inspection s
 
 The frozen candidate was published and rehearsed before the final evidence commit/tag, so the tag includes actual deployment results. Theme rollback only changes theme code: it does not undo catalog, translation, inventory or shipping writes. The original theme is retained, and selective data recovery follows [operations](OPERATIONS.md).
 
-The locally packaged release asset is `Brewbench-1.0.0.zip`, SHA-256 `64ba5e11174493a5c5779e5d3b4956d9c9ca74d29d9a2f8c0f1695d247a371d5`. The [GitHub release](https://github.com/fullstack-nick/brewbench/releases/tag/v1.0.0) includes the theme ZIP and walkthrough MP4.
+The release asset is `Brewbench-1.0.0.zip`, SHA-256 `1399274d1856f81d00f92aff005c7f49526ee76231d8ffb47ea87b3551239a83`. The [GitHub release](https://github.com/fullstack-nick/brewbench/releases/tag/v1.0.0) includes the theme ZIP and walkthrough MP4.
+
+The archive was repackaged after the initial tag to include the theme and font license notices that Shopify's default packager omits. [Packaging correction #2](https://github.com/fullstack-nick/brewbench/pull/2) adds the reproducible local wrapper. CRC checks passed and all 321 theme files were compared byte-for-byte with the source; the only additional file is the generated, non-executable `assets/brewbench-third-party-notices.txt`. The storefront code and release theme Git tree did not change. The hash above supersedes the initial archive hash recorded in the tag's historical delivery document.
 
 ## Review boundaries
 

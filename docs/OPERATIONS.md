@@ -59,3 +59,7 @@ Rollback is `shopify theme publish` with the retained previous theme ID. Verify 
 The checkout command places a real **test** order through the bogus gateway using fictional `example.com` contact details. It verifies three rates, a rejected card `2`, then an approved card `1`. It reduces test inventory. The exercises deliberately alter a browser form and shared guide, restoring the guide in `finally`. `node scripts/configuration-qa.mjs` requires an unpublished candidate, uploads temporary duplicate/empty-image templates and disables the experiment, then restores the exact settings and removes those templates.
 
 No automatic deployment, CI checks, required status checks or paid services are configured. Review the local results before merging and creating a release tag. See [release evidence](RELEASE.md) and [QA](QA.md) for what was actually exercised.
+
+## Downloadable theme package
+
+On Windows with Python 3.11+ and Shopify CLI installed, run `./scripts/package-theme.ps1`. It calls the official theme packager, adds the theme/original-contribution/font license notices as an ordinary text asset, verifies ZIP CRCs and compares every theme file against the source. The archive and SHA-256 are produced under ignored `.local/release`. Use this wrapper for distribution: the bare CLI command excludes the repository's license folders. The added notice asset is not loaded by storefront pages.

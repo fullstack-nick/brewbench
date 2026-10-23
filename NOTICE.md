@@ -6,4 +6,6 @@ Dawn supplies native product forms, cart/drawer behavior, localization controls,
 
 Lora and DM Sans are self-hosted. Their SIL Open Font License files are in [design/licenses](design/licenses). Product and editorial imagery was generated specifically for this fictional project; prompts and processing are recorded in [provenance](design/assets/provenance.json). These are illustrations, not photographs of manufactured goods or evidence of product performance.
 
+Use [the packaging wrapper](scripts/package-theme.ps1) when distributing a theme ZIP. It includes the complete theme and font notices in a generated text asset, since Shopify's bare packager omits license files outside its theme folders.
+
 Brewbench is an independent learning project. No real goods, payment processing, delivery promises, reviews or conversion results are represented.
