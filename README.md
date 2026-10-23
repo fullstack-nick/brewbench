@@ -2,9 +2,9 @@
 
 A fictional home-coffee Shopify store, built to practise theme engineering, structured content, international shopping, CRO, measurement and release operations.
 
-[Development storefront](https://brewbench-practice.myshopify.com) · [Editable Figma design](https://www.figma.com/design/NjRmHGtjzq5QlDZSGOcVHW) · [QA evidence](docs/QA.md) · [Release record](docs/RELEASE.md)
+[Development storefront](https://brewbench-practice.myshopify.com) — visitor password: **`brewbench-demo`** · [Editable Figma design](https://www.figma.com/design/NjRmHGtjzq5QlDZSGOcVHW) · [QA evidence](docs/QA.md) · [Release record](docs/RELEASE.md)
 
-The free development store is password protected. The password is shared privately; it is not in this repository. Checkout uses Shopify's test gateway. No goods are shipped and no real payments are taken. **There is no CI.** All validation, tests, deployment and rollback run locally.
+The free development store is password protected. Use the visitor password above to explore the storefront; it does not grant Shopify admin access. Checkout uses Shopify's test gateway. No goods are shipped and no real payments are taken. **There is no CI.** All validation, tests, deployment and rollback run locally.
 
 ![Brewbench storefront](docs/evidence/storefront-home.png)
 
