@@ -1,0 +1,13 @@
+# Private setup state, API snapshots and browser authentication
+.local/
+.env
+.env.*
+!.env.example
+.shopify/
+**/storage-state*.json
+**/playwright/.auth/
+
+# Local dependencies and generated test output
+node_modules/
+test-results/
+playwright-report/
