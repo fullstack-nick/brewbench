@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/browser',testMatch:/checkout\.spec\.mjs/,workers:1,retries:0,timeout:180000,expect:{timeout:15000},outputDir:'.local/checkout/results',reporter:[['list'],['json',{outputFile:'.local/checkout/report.json'}]],use:{baseURL:'https://brewbench-practice.myshopify.com',storageState:'.local/playwright/auth.json',browserName:'chromium',viewport:{width:1280,height:900},trace:'retain-on-failure',video:'on'}});

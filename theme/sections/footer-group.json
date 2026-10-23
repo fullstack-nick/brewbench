@@ -1,0 +1,15 @@
+{
+  "name": "Footer",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "bb-footer",
+      "settings": {
+        "menu": "brewbench-footer"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

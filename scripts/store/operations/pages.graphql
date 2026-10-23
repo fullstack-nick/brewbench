@@ -1,0 +1,15 @@
+query Pages($after: String) {
+  pages(first: 50, after: $after) {
+    nodes {
+      id
+      handle
+      title
+      body
+      isPublished
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

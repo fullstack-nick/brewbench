@@ -1,0 +1,15 @@
+mutation TranslationWrite(
+  $resourceId: ID!
+  $translations: [TranslationInput!]!
+) {
+  translationsRegister(resourceId: $resourceId, translations: $translations) {
+    translations {
+      key
+      value
+    }
+    userErrors {
+      field
+      message
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{% doc %}
+  Display exact-fit variant references and market-aware add actions.
+  @param {product} product - Current product.
+  @param {variant} variant - Exact selected variant.
+  @param {string} section_id - Owning section ID.
+  @example
+  {% render 'bb-compatible-products', product: product, variant: product.selected_or_first_available_variant, section_id: section.id %}
+{% enddoc %}
+{% if variant != blank and variant.metafields.brewbench.compatible_variants.value.count > 0 %}
+  <bb-compatibility data-product="{{ product.id }}" data-variant="{{ variant.id }}" data-eligible="{% if product.type == 'Brewers' %}true{% else %}false{% endif %}" data-experiment-enabled="{{ settings.bb_experiment_enabled }}">
+    <div class="bb-fit-heading"><span aria-hidden="true">↔</span><h2 class="h4">{{ 'brewbench.product.fits' | t }}</h2></div>
+    <p class="bb-fit-note">{{ 'brewbench.product.exact_fit' | t: size: variant.title }}</p>
+    <div class="bb-fit-items">
+      {% for match in variant.metafields.brewbench.compatible_variants.value %}
+        {% if match.product != blank and match.product.url != blank %}
+          <div class="bb-fit-item">
+            {% if match.product.featured_image != blank %}<a class="bb-fit-image" href="{{ match.url }}" tabindex="-1" aria-hidden="true">{{ match.product.featured_image | image_url: width: 160 | image_tag: loading: 'lazy', widths: '80,160', sizes: '64px', alt: '' }}</a>{% endif %}
+            <div><a class="bb-fit-title" href="{{ match.url }}">{{ match.product.title | escape }}</a><span>{{ match.price | money_with_currency }}</span>
+              {% unless match.available %}<span class="bb-stock-note">{{ 'products.product.sold_out' | t }}</span>{% endunless %}
+            </div>
+            {% if match.available %}
+              <bb-quick-add>
+                {%- assign fit_form_id = 'FitForm-' | append: section_id | append: '-' | append: match.id -%}
+                {% form 'product', match.product, id: fit_form_id, class: 'bb-fit-form' %}
+                  <input type="hidden" name="id" value="{{ match.id }}"><input type="hidden" name="quantity" value="1">
+                  <button type="submit" class="bb-fit-add" aria-label="{{ 'brewbench.product.add_match' | t: title: match.product.title | escape }}">{{ 'brewbench.product.add' | t }} <span aria-hidden="true">+</span></button>
+                  <p class="bb-inline-error" role="alert" hidden></p>
+                {% endform %}
+              </bb-quick-add>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </bb-compatibility>
+{% endif %}

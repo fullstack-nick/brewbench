@@ -1,0 +1,23 @@
+<section class="page-width bb-section" aria-labelledby="MethodsHeading-{{ section.id }}">
+  <div class="bb-section-heading"><div><p class="bb-eyebrow">{{ 'brewbench.methods.eyebrow' | t }}</p><h2 id="MethodsHeading-{{ section.id }}">{{ 'brewbench.methods.heading' | t }}</h2></div><a class="bb-text-link" href="{{ pages['buying-guide'].url }}">{{ 'brewbench.methods.help' | t }} <span aria-hidden="true">↗</span></a></div>
+  <div class="bb-method-grid">
+    {% for block in section.blocks %}
+      {%- assign method_collection = block.settings.collection -%}
+      <a class="bb-method-card" href="{{ method_collection.url | default: routes.all_products_collection_url }}" {{ block.shopify_attributes }}>
+        <div class="bb-method-card__image">
+          {% if block.settings.image != blank %}
+            {{ block.settings.image | image_url: width: 800 | image_tag: widths: '300,500,800', sizes: '(min-width: 750px) 33vw, 90vw', loading: 'lazy' }}
+          {% elsif method_collection.products.first.featured_image != blank %}
+            {{ method_collection.products.first.featured_image | image_url: width: 800 | image_tag: widths: '300,500,800', sizes: '(min-width: 750px) 33vw, 90vw', loading: 'lazy' }}
+          {% else %}
+            {{ 'product-1' | placeholder_svg_tag: 'bb-placeholder' }}
+          {% endif %}
+        </div>
+        <div class="bb-method-card__label"><div><span class="bb-eyebrow">0{{ forloop.index }}</span><h3>{{ method_collection.title | default: block.settings.title | escape }}</h3></div><span class="bb-round-arrow" aria-hidden="true">↗</span></div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% schema %}
+{"name":"Brewbench brewing methods","settings":[],"blocks":[{"type":"method","name":"Brewing method","settings":[{"type":"collection","id":"collection","label":"Collection"},{"type":"text","id":"title","label":"Fallback title","default":"Brewing method"},{"type":"image_picker","id":"image","label":"Image override"}]}],"max_blocks":6,"presets":[{"name":"Brewbench brewing methods","blocks":[{"type":"method"},{"type":"method"},{"type":"method"}]}]}
+{% endschema %}

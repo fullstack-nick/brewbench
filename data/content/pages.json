@@ -1,0 +1,57 @@
+[
+  {
+    "handle": "buying-guide",
+    "title": {
+      "en": "Find your morning ritual",
+      "de": "Finde dein Morgenritual"
+    },
+    "body": {
+      "en": "<p>Good coffee starts with a routine you enjoy. Choose a method first, then add the equipment that fits.</p><h2>For a clear, delicate cup</h2><p>Choose a Cone Brewer and matching 01 or 02 paper filters. A gooseneck kettle helps control the pour. Start with our shared brewing guide on the product page.</p><h2>For a full-bodied cup</h2><p>The French Press steeps coffee in water and separates it with a reusable mesh. Choose the 600 ml replacement parts when needed.</p><h2>For a smaller counter</h2><p>The Travel Brewer and Compact Hand Grinder take up little space. Grind just before brewing and adjust one thing at a time.</p><h2>Check the fit</h2><p>Compatibility belongs to the selected size. Our product pages show the exact matching filters and parts, including when a match is out of stock.</p>",
+      "de": "<p>Guter Kaffee beginnt mit einer Routine, die dir gefällt. Wähle zuerst die Methode und dann die passende Ausstattung.</p><h2>Für eine klare, feine Tasse</h2><p>Wähle einen Kegelfilter mit passenden Papierfiltern 01 oder 02. Ein Schwanenhalskessel hilft beim kontrollierten Aufgießen. Das gemeinsame Brührezept findest du auf der Produktseite.</p><h2>Für eine vollmundige Tasse</h2><p>In der French Press zieht Kaffee im Wasser und wird durch ein wiederverwendbares Sieb getrennt. Wähle bei Bedarf die 600-ml-Ersatzteile.</p><h2>Für kleine Küchen</h2><p>Reise-Kaffeebereiter und kompakte Handmühle brauchen wenig Platz. Mahle kurz vor dem Brühen und verändere jeweils nur eine Sache.</p><h2>Passform prüfen</h2><p>Die Kompatibilität hängt von der gewählten Größe ab. Unsere Produktseiten zeigen passende Filter und Teile – auch dann, wenn ein passendes Teil ausverkauft ist.</p>"
+    }
+  },
+  {
+    "handle": "delivery",
+    "title": {
+      "en": "Delivery & the practice store",
+      "de": "Versand & der Übungsstore"
+    },
+    "body": {
+      "en": "<p>Brewbench is a fictional portfolio project. Products are not offered for real sale. Checkout uses a test gateway and no goods are shipped.</p><h2>Example delivery options</h2><p>Austria: €4.90. Germany: €6.90. United Kingdom: €9.90. All checkout payments remain in EUR. Delivery times are illustrative: 2–4, 3–5 and 5–8 working days respectively.</p><p>The Thermal Carafe is excluded from the UK assortment. Changing country can change product availability; review your cart after switching.</p>",
+      "de": "<p>Brewbench ist ein fiktives Portfolio-Projekt. Die Produkte werden nicht real verkauft. Der Checkout verwendet ein Test-Zahlungsgateway; es werden keine Waren versandt.</p><h2>Beispielhafte Versandoptionen</h2><p>Österreich: 4,90 €. Deutschland: 6,90 €. Vereinigtes Königreich: 9,90 €. Alle Zahlungen im Checkout bleiben in EUR. Beispielhafte Lieferzeiten: 2–4, 3–5 bzw. 5–8 Werktage.</p><p>Die Thermokaraffe gehört nicht zum britischen Sortiment. Ein Länderwechsel kann die Verfügbarkeit ändern. Prüfe danach deinen Warenkorb.</p>"
+    }
+  },
+  {
+    "handle": "faq",
+    "title": {
+      "en": "A few good questions",
+      "de": "Ein paar gute Fragen"
+    },
+    "body": {
+      "en": "<h2>Is this a real shop?</h2><p>No. Brewbench is an independent development-store demonstration. No real orders or deliveries are accepted.</p><h2>Which filter fits?</h2><p>Select your brewer size. The fit information beside the purchase controls updates to match that exact variant.</p><h2>Why are prices in euros?</h2><p>This practice configuration uses EUR for all three delivery countries.</p><h2>What happens if I decline analytics?</h2><p>Shopping keeps working. The optional local QA recorder and experiment assignment remain off.</p>",
+      "de": "<h2>Ist das ein echter Shop?</h2><p>Nein. Brewbench ist ein unabhängiger Demo-Store. Echte Bestellungen und Lieferungen werden nicht angenommen.</p><h2>Welcher Filter passt?</h2><p>Wähle die Größe deines Kaffeebereiters. Die Passform-Information an den Kaufoptionen aktualisiert sich für genau diese Variante.</p><h2>Warum sind die Preise in Euro?</h2><p>Diese Übungskonfiguration verwendet EUR für alle drei Lieferländer.</p><h2>Was passiert, wenn ich Analyse ablehne?</h2><p>Der Shop funktioniert weiter. Der optionale lokale QA-Recorder und die Experiment-Zuordnung bleiben ausgeschaltet.</p>"
+    }
+  },
+  {
+    "handle": "privacy",
+    "title": {
+      "en": "Demo privacy notice",
+      "de": "Demo-Datenschutzhinweis"
+    },
+    "body": {
+      "en": "<p>This is sample content for a fictional practice store, not a production legal policy.</p><p>Shopify provides essential storefront and checkout services. Brewbench has no external analytics collector. If you explicitly accept analytics, this theme stores a random experiment identifier and sanitized QA events in your browser for up to 30 days. You can withdraw consent using “Privacy choices” in the footer; Brewbench then clears its analytics storage.</p><p>Do not enter real personal or payment information in this development checkout. Use the documented fictional test details.</p>",
+      "de": "<p>Dies ist Beispielinhalt für einen fiktiven Übungsstore und keine rechtlich geprüfte Datenschutzerklärung.</p><p>Shopify stellt notwendige Shop- und Checkout-Funktionen bereit. Brewbench verwendet keinen externen Analysedienst. Bei ausdrücklicher Zustimmung speichert das Theme eine zufällige Experiment-Kennung und bereinigte QA-Ereignisse bis zu 30 Tage lokal im Browser. Über „Datenschutz-Einstellungen“ im Footer kannst du widerrufen; die Brewbench-Analysedaten werden dann gelöscht.</p><p>Gib im Entwicklungs-Checkout keine echten persönlichen Daten oder Zahlungsdaten ein. Verwende die dokumentierten fiktiven Testdaten.</p>"
+    }
+  },
+  {
+    "handle": "returns",
+    "title": {
+      "en": "Demo returns & terms",
+      "de": "Demo-Rückgabe & Bedingungen"
+    },
+    "body": {
+      "en": "<p>Sample policy for a fictional portfolio project. No real sales contract, shipment or return is created by using this test store.</p><p>For the demonstration, returns are described as a 30-day process for unused equipment. This is illustrative copy, not a customer promise or production legal advice. Product specifications, prices and imagery are fictional.</p>",
+      "de": "<p>Beispielbedingungen für ein fiktives Portfolio-Projekt. Die Nutzung dieses Teststores erzeugt keinen echten Kaufvertrag, Versand oder Rückgabevorgang.</p><p>Im Demo wird eine Rückgabe innerhalb von 30 Tagen für unbenutzte Ausstattung beschrieben. Dies ist Beispieltext und kein Kundenversprechen oder rechtlich geprüfter Text. Produktdaten, Preise und Bilder sind fiktiv.</p>"
+    }
+  }
+]

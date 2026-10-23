@@ -1,0 +1,45 @@
+mutation ProductSet(
+  $identifier: ProductSetIdentifiers
+  $input: ProductSetInput!
+) {
+  productSet(identifier: $identifier, input: $input, synchronous: true) {
+    product {
+      id
+      handle
+      options {
+        id
+        name
+        optionValues {
+          id
+          name
+        }
+      }
+      media(first: 10) {
+        nodes {
+          id
+          alt
+          status
+          ... on MediaImage {
+            image {
+              url
+            }
+          }
+        }
+      }
+      variants(first: 50) {
+        nodes {
+          id
+          sku
+          inventoryItem {
+            id
+          }
+        }
+      }
+    }
+    userErrors {
+      field
+      message
+      code
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "#1003",
+  "test": true,
+  "status": "PAID",
+  "total": {
+    "amount": "55.9",
+    "currencyCode": "EUR"
+  },
+  "country": "GB",
+  "shipping": [
+    {
+      "title": "Brewbench GB standard (test)",
+      "price": {
+        "amount": "9.9",
+        "currencyCode": "EUR"
+      }
+    }
+  ],
+  "lines": [
+    {
+      "sku": "BB-17-STD",
+      "quantity": 1,
+      "price": {
+        "amount": "8.0",
+        "currencyCode": "EUR"
+      }
+    },
+    {
+      "sku": "BB-CONE-02-CHALK",
+      "quantity": 1,
+      "price": {
+        "amount": "38.0",
+        "currencyCode": "EUR"
+      }
+    }
+  ]
+}

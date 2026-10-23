@@ -1,0 +1,10 @@
+{% liquid
+  assign bb_footer_menu = linklists[section.settings.menu]
+  if localization.language.iso_code == 'de' and linklists['brewbench-footer-de'].links.size > 0
+    assign bb_footer_menu = linklists['brewbench-footer-de']
+  endif
+%}
+<footer class="bb-footer"><div class="page-width"><div class="bb-footer__top"><div><a class="bb-wordmark" href="{{ routes.root_url }}">brewbench<span aria-hidden="true">.</span></a><p>{{ 'brewbench.footer.tagline' | t }}</p><small>{{ 'brewbench.footer.demo' | t }}</small></div><nav aria-label="{{ 'brewbench.footer.links' | t | escape }}"><ul>{% for link in bb_footer_menu.links %}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{% endfor %}</ul></nav><div><p class="bb-eyebrow">{{ 'brewbench.footer.made_for' | t }}</p><p>{% if localization.language.iso_code == 'de' %}Österreich · Deutschland · Vereinigtes Königreich{% else %}Austria · Germany · United Kingdom{% endif %}</p><p>{{ 'brewbench.footer.currency' | t }}</p><button class="bb-privacy-link" type="button" data-bb-privacy-open>{{ 'brewbench.privacy.choices' | t }}</button></div></div><div class="bb-footer__bottom"><span>© {{ 'now' | date: '%Y' }} Brewbench</span><span>{{ 'brewbench.footer.independent' | t }}</span><a href="{{ pages['buying-guide'].url }}">{{ 'brewbench.footer.keep_brewing' | t }} ↗</a></div></div></footer>
+{% schema %}
+{"name":"Brewbench footer","settings":[{"type":"link_list","id":"menu","label":"Footer menu","default":"footer"}]}
+{% endschema %}

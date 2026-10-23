@@ -1,0 +1,24 @@
+{
+  "durationSeconds": 78.36,
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Customer journey, country/language switch and test checkout",
+      "startSeconds": 0,
+      "durationSeconds": 29.16
+    },
+    {
+      "chapter": 2,
+      "title": "Intentional wrong-variant defect, correction and shared guide edit",
+      "startSeconds": 29.16,
+      "durationSeconds": 40.2
+    },
+    {
+      "chapter": 3,
+      "title": "Measured optimization and its limits",
+      "startSeconds": 69.36,
+      "durationSeconds": 9
+    }
+  ],
+  "note": "Actual storefront recordings plus a clearly labeled local measurement report. The theme defect is intentionally injected in the test browser; shared content is restored. No password or authentication screens are recorded. The final checkout confirmation reference is redacted."
+}

@@ -1,0 +1,122 @@
+query Geography {
+  deliveryProfiles(first: 10) {
+    nodes {
+      id
+      name
+      default
+      profileLocationGroups {
+        locationGroup {
+          id
+          locations(first: 10) {
+            nodes {
+              id
+              name
+            }
+          }
+        }
+        locationGroupZones(first: 10) {
+          nodes {
+            zone {
+              id
+              name
+              countries {
+                name
+              }
+            }
+            methodDefinitions(first: 10) {
+              nodes {
+                id
+                name
+                active
+                rateProvider {
+                  ... on DeliveryRateDefinition {
+                    price {
+                      amount
+                      currencyCode
+                    }
+                  }
+                }
+              }
+            }
+          }
+          pageInfo {
+            hasNextPage
+          }
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+    }
+  }
+  catalogs(first: 5, type: MARKET) {
+    nodes {
+      id
+      title
+      status
+      publication {
+        id
+        autoPublish
+        includedProducts(first: 30) {
+          nodes {
+            id
+            handle
+          }
+          pageInfo {
+            hasNextPage
+          }
+        }
+      }
+      ... on MarketCatalog {
+        markets(first: 10) {
+          nodes {
+            id
+            name
+          }
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+    }
+  }
+  markets(first: 20) {
+    nodes {
+      id
+      name
+      status
+      delivery {
+        shipping {
+          isEnabled
+          optionDefinitions(first: 20) {
+            nodes {
+              id
+              isActive
+              ... on DeliveryFlatRateOptionDefinition {
+                name
+                currency
+                rateGroups(first: 10) {
+                  nodes {
+                    id
+                    rate {
+                      price {
+                        amount
+                        currencyCode
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            pageInfo {
+              hasNextPage
+            }
+          }
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+    }
+  }
+}

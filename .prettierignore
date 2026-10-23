@@ -3,3 +3,4 @@ theme/
 design/assets/
 design/exports/
 docs/evidence/
+analytics/data/*.jsonl

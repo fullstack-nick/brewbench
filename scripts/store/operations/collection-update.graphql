@@ -1,0 +1,12 @@
+mutation CollectionUpdate($input: CollectionUpdateInput!) {
+  collectionUpdate(collection: $input) {
+    collection {
+      id
+      handle
+    }
+    userErrors {
+      field
+      message
+    }
+  }
+}

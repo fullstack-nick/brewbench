@@ -1,0 +1,1253 @@
+[
+  {
+    "handle": "cone-brewer",
+    "title": {
+      "en": "Cone Brewer",
+      "de": "Kegelfilter aus Keramik"
+    },
+    "description": {
+      "en": "A considered start to your morning. Ridges keep the paper lifted so water flows evenly. Choose 01 for one cup or 02 when you are brewing for two.",
+      "de": "Ein ruhiger Start in den Morgen. Rippen halten das Papier auf Abstand, damit Wasser gleichmäßig fließt. Wähle 01 für eine Tasse oder 02 für zwei."
+    },
+    "group": "Brewers",
+    "material": {
+      "en": "Ceramic",
+      "de": "Keramik"
+    },
+    "methods": ["pour-over"],
+    "beginner": true,
+    "guide": "a-calm-pour-over",
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/cone-brewer.webp",
+        "alt": {
+          "en": "Cone Brewer — original illustrative product photograph",
+          "de": "Kegelfilter aus Keramik – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["01 · 250 ml", "02 · 500 ml"]
+      },
+      {
+        "name": "Finish",
+        "de": "Farbe",
+        "values": ["Chalk", "Olive"],
+        "translations": {
+          "Chalk": "Kreide",
+          "Olive": "Oliv"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-CONE-01-CHALK",
+        "options": ["01 · 250 ml", "Chalk"],
+        "price": "32.00",
+        "weightGrams": 300,
+        "capacityMl": 250,
+        "initialStock": 30,
+        "compatibleSkus": ["BB-16-STD"]
+      },
+      {
+        "sku": "BB-CONE-01-OLIVE",
+        "options": ["01 · 250 ml", "Olive"],
+        "price": "32.00",
+        "weightGrams": 300,
+        "capacityMl": 250,
+        "initialStock": 0,
+        "compatibleSkus": ["BB-16-STD"]
+      },
+      {
+        "sku": "BB-CONE-02-CHALK",
+        "options": ["02 · 500 ml", "Chalk"],
+        "price": "38.00",
+        "weightGrams": 400,
+        "capacityMl": 500,
+        "initialStock": 30,
+        "compatibleSkus": ["BB-17-STD", "BB-19-STD"]
+      }
+    ]
+  },
+  {
+    "handle": "flatbed-brewer",
+    "title": {
+      "en": "Flatbed Brewer",
+      "de": "Flachbodenfilter"
+    },
+    "description": {
+      "en": "A flat bed, a steady pour, a balanced cup. The wide base makes this a forgiving way to explore hand brewing. Uses our flatbed paper filters.",
+      "de": "Flacher Boden, ruhiger Aufguss, ausgewogener Kaffee. Die breite Basis erleichtert den Einstieg. Passend zu unseren Flachboden-Papierfiltern."
+    },
+    "group": "Brewers",
+    "material": {
+      "en": "Ceramic",
+      "de": "Keramik"
+    },
+    "methods": ["pour-over"],
+    "beginner": true,
+    "guide": "a-calm-pour-over",
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/flatbed-brewer.webp",
+        "alt": {
+          "en": "Flatbed Brewer — original illustrative product photograph",
+          "de": "Flachbodenfilter – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["400 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-02-STD",
+        "options": ["400 ml"],
+        "price": "36.00",
+        "weightGrams": 500,
+        "capacityMl": 400,
+        "initialStock": 30,
+        "compatibleSkus": ["BB-18-STD"]
+      }
+    ]
+  },
+  {
+    "handle": "immersion-brewer",
+    "title": {
+      "en": "Immersion Brewer",
+      "de": "Immersionsfilter"
+    },
+    "description": {
+      "en": "Let your coffee steep, then open the valve. Immersion brewing offers a simple routine with less attention to pouring technique.",
+      "de": "Kaffee ziehen lassen, dann das Ventil öffnen. Immersion bietet eine einfache Routine, bei der die Gießtechnik weniger wichtig ist."
+    },
+    "group": "Brewers",
+    "material": {
+      "en": "Tritan and silicone",
+      "de": "Tritan und Silikon"
+    },
+    "methods": ["immersion"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/immersion-brewer.webp",
+        "alt": {
+          "en": "Immersion Brewer — original illustrative product photograph",
+          "de": "Immersionsfilter – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["450 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-03-STD",
+        "options": ["450 ml"],
+        "price": "42.00",
+        "weightGrams": 500,
+        "capacityMl": 450,
+        "initialStock": 30,
+        "compatibleSkus": ["BB-17-STD", "BB-21-STD"]
+      }
+    ]
+  },
+  {
+    "handle": "french-press",
+    "title": {
+      "en": "French Press",
+      "de": "French Press"
+    },
+    "description": {
+      "en": "Full-bodied coffee, without paper. A simple glass vessel lets you see the brew, while the replaceable mesh keeps this everyday tool useful.",
+      "de": "Vollmundiger Kaffee ohne Papier. Im Glas lässt sich der Aufguss beobachten. Das austauschbare Sieb macht die Kanne zum langlebigen Alltagsbegleiter."
+    },
+    "group": "Brewers",
+    "material": {
+      "en": "Glass and stainless steel",
+      "de": "Glas und Edelstahl"
+    },
+    "methods": ["immersion"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/french-press.webp",
+        "alt": {
+          "en": "French Press — original illustrative product photograph",
+          "de": "French Press – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["600 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-04-STD",
+        "options": ["600 ml"],
+        "price": "49.00",
+        "weightGrams": 500,
+        "capacityMl": 600,
+        "initialStock": 30,
+        "compatibleSkus": ["BB-20-STD", "BB-24-STD"]
+      }
+    ]
+  },
+  {
+    "handle": "travel-brewer",
+    "title": {
+      "en": "Travel Brewer",
+      "de": "Kompakter Reise-Kaffeebereiter für kleine Küchen und unterwegs"
+    },
+    "description": {
+      "en": "A compact press for a good cup away from your usual counter. Packs down small and rinses clean in moments.",
+      "de": "Eine kompakte Presse für guten Kaffee abseits deiner Küche. Klein verstaubar und in wenigen Handgriffen gereinigt."
+    },
+    "group": "Brewers",
+    "material": {
+      "en": "Polypropylene",
+      "de": "Polypropylen"
+    },
+    "methods": ["travel"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/travel-brewer.webp",
+        "alt": {
+          "en": "Travel Brewer — original illustrative product photograph",
+          "de": "Kompakter Reise-Kaffeebereiter für kleine Küchen und unterwegs – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["250 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-05-STD",
+        "options": ["250 ml"],
+        "price": "38.00",
+        "weightGrams": 500,
+        "capacityMl": 250,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "burr-hand-grinder",
+    "title": {
+      "en": "Burr Hand Grinder",
+      "de": "Handmühle mit Kegelmahlwerk"
+    },
+    "description": {
+      "en": "Freshly ground, at your own pace. A stainless burr set and stepped adjustment help you repeat your favourite recipe. 25 g bean capacity.",
+      "de": "Frisch gemahlen im eigenen Tempo. Edelstahlmahlwerk und Rasterverstellung helfen dir, dein Lieblingsrezept zu wiederholen. Platz für 25 g Bohnen."
+    },
+    "group": "Grinders",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["pour-over", "immersion"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Brush dry after use. Do not immerse the burr mechanism in water.",
+      "de": "Nach Gebrauch trocken ausbürsten. Das Mahlwerk nicht in Wasser tauchen."
+    },
+    "media": [
+      {
+        "file": "design/assets/burr-hand-grinder.webp",
+        "alt": {
+          "en": "Burr Hand Grinder — original illustrative product photograph",
+          "de": "Handmühle mit Kegelmahlwerk – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-06-STD",
+        "options": ["Standard"],
+        "price": "79.00",
+        "weightGrams": 500,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": ["BB-22-STD"]
+      }
+    ]
+  },
+  {
+    "handle": "compact-hand-grinder",
+    "title": {
+      "en": "Compact Hand Grinder",
+      "de": "Kompakte Handmühle"
+    },
+    "description": {
+      "en": "A lighter grinder for a smaller ritual. The compact body holds 18 g of beans: just right for a single cup.",
+      "de": "Eine leichtere Mühle für ein kleines Ritual. Das kompakte Gehäuse fasst 18 g Bohnen – passend für eine Tasse."
+    },
+    "group": "Grinders",
+    "material": {
+      "en": "Aluminium",
+      "de": "Aluminium"
+    },
+    "methods": ["travel", "pour-over"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Brush dry after use. Do not immerse the burr mechanism in water.",
+      "de": "Nach Gebrauch trocken ausbürsten. Das Mahlwerk nicht in Wasser tauchen."
+    },
+    "media": [
+      {
+        "file": "design/assets/compact-hand-grinder.webp",
+        "alt": {
+          "en": "Compact Hand Grinder — original illustrative product photograph",
+          "de": "Kompakte Handmühle – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-07-STD",
+        "options": ["Standard"],
+        "price": "54.00",
+        "weightGrams": 500,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "precision-hand-grinder",
+    "title": {
+      "en": "Precision Hand Grinder",
+      "de": "Präzisions-Handmühle"
+    },
+    "description": {
+      "en": "Make small, repeatable adjustments as you learn. A clearly marked dial and 30 g capacity leave room for experimentation.",
+      "de": "Lerne mit kleinen, wiederholbaren Anpassungen. Ein gut ablesbarer Einstellring und 30 g Fassungsvermögen bieten Raum zum Experimentieren."
+    },
+    "group": "Grinders",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["pour-over", "immersion"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Brush dry after use. Do not immerse the burr mechanism in water.",
+      "de": "Nach Gebrauch trocken ausbürsten. Das Mahlwerk nicht in Wasser tauchen."
+    },
+    "media": [
+      {
+        "file": "design/assets/precision-hand-grinder.webp",
+        "alt": {
+          "en": "Precision Hand Grinder — original illustrative product photograph",
+          "de": "Präzisions-Handmühle – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-08-STD",
+        "options": ["Standard"],
+        "price": "129.00",
+        "weightGrams": 500,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "travel-hand-grinder",
+    "title": {
+      "en": "Travel Hand Grinder",
+      "de": "Reise-Handmühle"
+    },
+    "description": {
+      "en": "An easy companion for your travel brewer. The removable handle stores against the 20 g body when your bag is full.",
+      "de": "Ein praktischer Begleiter für den Reise-Kaffeebereiter. Der abnehmbare Griff lässt sich am 20-g-Gehäuse verstauen."
+    },
+    "group": "Grinders",
+    "material": {
+      "en": "Aluminium",
+      "de": "Aluminium"
+    },
+    "methods": ["travel"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Brush dry after use. Do not immerse the burr mechanism in water.",
+      "de": "Nach Gebrauch trocken ausbürsten. Das Mahlwerk nicht in Wasser tauchen."
+    },
+    "media": [
+      {
+        "file": "design/assets/travel-hand-grinder.webp",
+        "alt": {
+          "en": "Travel Hand Grinder — original illustrative product photograph",
+          "de": "Reise-Handmühle – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-09-STD",
+        "options": ["Standard"],
+        "price": "65.00",
+        "weightGrams": 500,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "gooseneck-kettle",
+    "title": {
+      "en": "Gooseneck Kettle",
+      "de": "Schwanenhalskessel"
+    },
+    "description": {
+      "en": "A slow, controlled pour is easier with a narrow spout. This unpowered kettle is made for deliberate hand brewing. Heat water separately.",
+      "de": "Mit dem schmalen Ausguss gelingt ein ruhiger Aufguss. Dieser Kessel ohne Heizelement begleitet bewusstes Handbrühen. Wasser separat erhitzen."
+    },
+    "group": "Kettles",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["pour-over"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/gooseneck-kettle.webp",
+        "alt": {
+          "en": "Gooseneck Kettle — original illustrative product photograph",
+          "de": "Schwanenhalskessel – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["700 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-10-STD",
+        "options": ["700 ml"],
+        "price": "64.00",
+        "weightGrams": 500,
+        "capacityMl": 700,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "stovetop-kettle",
+    "title": {
+      "en": "Stovetop Kettle",
+      "de": "Wasserkessel für den Herd"
+    },
+    "description": {
+      "en": "Bring your routine back to the stove. A broad base and comfortable handle suit slower mornings. Demo specifications are illustrative.",
+      "de": "Zurück zum Herd: breite Basis und angenehmer Griff für entspannte Morgen. Die technischen Angaben dieses Demos sind beispielhaft."
+    },
+    "group": "Kettles",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["immersion", "pour-over"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/stovetop-kettle.webp",
+        "alt": {
+          "en": "Stovetop Kettle — original illustrative product photograph",
+          "de": "Wasserkessel für den Herd – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["1000 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-11-STD",
+        "options": ["1000 ml"],
+        "price": "72.00",
+        "weightGrams": 500,
+        "capacityMl": 1000,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "pouring-jug",
+    "title": {
+      "en": "Pouring Jug",
+      "de": "Aufgusskännchen"
+    },
+    "description": {
+      "en": "Small batches deserve the same attention. A simple open jug with a narrow spout for your single-cup routine.",
+      "de": "Auch kleine Mengen verdienen Aufmerksamkeit. Ein offenes Kännchen mit schmalem Ausguss für dein Ein-Tassen-Ritual."
+    },
+    "group": "Kettles",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["pour-over", "travel"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/pouring-jug.webp",
+        "alt": {
+          "en": "Pouring Jug — original illustrative product photograph",
+          "de": "Aufgusskännchen – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["350 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-12-STD",
+        "options": ["350 ml"],
+        "price": "28.00",
+        "weightGrams": 500,
+        "capacityMl": 350,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "glass-carafe",
+    "title": {
+      "en": "Glass Carafe",
+      "de": "Glaskaraffe"
+    },
+    "description": {
+      "en": "See the colour of your brew. The generous handle and clear volume marks make sharing a little easier.",
+      "de": "Die Farbe deines Kaffees im Blick. Großer Griff und klare Mengenmarkierungen erleichtern das Teilen."
+    },
+    "group": "Servers",
+    "material": {
+      "en": "Borosilicate glass",
+      "de": "Borosilikatglas"
+    },
+    "methods": ["pour-over"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/glass-carafe.webp",
+        "alt": {
+          "en": "Glass Carafe — original illustrative product photograph",
+          "de": "Glaskaraffe – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["600 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-13-STD",
+        "options": ["600 ml"],
+        "price": "29.00",
+        "weightGrams": 500,
+        "capacityMl": 600,
+        "initialStock": 30,
+        "compatibleSkus": ["BB-23-STD"]
+      }
+    ]
+  },
+  {
+    "handle": "thermal-carafe",
+    "title": {
+      "en": "Thermal Carafe",
+      "de": "Thermokaraffe"
+    },
+    "description": {
+      "en": "Make a little more and take your time. An insulated serving vessel with a removable lid. Available in Austria and Germany in this demo.",
+      "de": "Etwas mehr zubereiten und Zeit lassen. Isolierte Servierkanne mit abnehmbarem Deckel. In diesem Demo in Österreich und Deutschland erhältlich."
+    },
+    "group": "Servers",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["pour-over", "immersion"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": ["GB"],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/thermal-carafe.webp",
+        "alt": {
+          "en": "Thermal Carafe — original illustrative product photograph",
+          "de": "Thermokaraffe – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["800 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-14-STD",
+        "options": ["800 ml"],
+        "price": "58.00",
+        "weightGrams": 500,
+        "capacityMl": 800,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "small-glass-server",
+    "title": {
+      "en": "Small Glass Server",
+      "de": "Kleiner Glasserver"
+    },
+    "description": {
+      "en": "A little server for one good cup. Its compact shape leaves room on even the smallest coffee corner.",
+      "de": "Ein kleiner Server für eine gute Tasse. Die kompakte Form findet selbst in der kleinsten Kaffeeecke Platz."
+    },
+    "group": "Servers",
+    "material": {
+      "en": "Borosilicate glass",
+      "de": "Borosilikatglas"
+    },
+    "methods": ["pour-over", "travel"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/small-glass-server.webp",
+        "alt": {
+          "en": "Small Glass Server — original illustrative product photograph",
+          "de": "Kleiner Glasserver – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["300 ml"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-15-STD",
+        "options": ["300 ml"],
+        "price": "22.00",
+        "weightGrams": 500,
+        "capacityMl": 300,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "cone-paper-filters-01",
+    "title": {
+      "en": "Cone Paper Filters 01",
+      "de": "Kegel-Papierfilter 01"
+    },
+    "description": {
+      "en": "One hundred unbleached papers, cut for the small Cone Brewer 01. Rinse before brewing. These do not fit size 02.",
+      "de": "Hundert ungebleichte Papierfilter für den kleinen Kegelfilter 01. Vor dem Brühen spülen. Nicht passend für Größe 02."
+    },
+    "group": "Filters",
+    "material": {
+      "en": "Paper",
+      "de": "Papier"
+    },
+    "methods": ["pour-over"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/cone-paper-filters-01.webp",
+        "alt": {
+          "en": "Cone Paper Filters 01 — original illustrative product photograph",
+          "de": "Kegel-Papierfilter 01 – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-16-STD",
+        "options": ["Standard"],
+        "price": "7.00",
+        "weightGrams": 100,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "cone-paper-filters-02",
+    "title": {
+      "en": "Cone Paper Filters 02",
+      "de": "Kegel-Papierfilter 02"
+    },
+    "description": {
+      "en": "One hundred unbleached papers for the large Cone Brewer 02 and Immersion Brewer. Check your brewer size before adding.",
+      "de": "Hundert ungebleichte Papierfilter für den großen Kegelfilter 02 und den Immersionsfilter. Prüfe vor dem Hinzufügen die Größe."
+    },
+    "group": "Filters",
+    "material": {
+      "en": "Paper",
+      "de": "Papier"
+    },
+    "methods": ["pour-over"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/cone-paper-filters-02.webp",
+        "alt": {
+          "en": "Cone Paper Filters 02 — original illustrative product photograph",
+          "de": "Kegel-Papierfilter 02 – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-17-STD",
+        "options": ["Standard"],
+        "price": "8.00",
+        "weightGrams": 100,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "flatbed-paper-filters",
+    "title": {
+      "en": "Flatbed Paper Filters",
+      "de": "Flachboden-Papierfilter"
+    },
+    "description": {
+      "en": "A hundred pleated papers with a flat base, made for the Flatbed Brewer. Keep the folds open when you rinse.",
+      "de": "Hundert gefaltete Papierfilter mit flachem Boden für den Flachbodenfilter. Beim Spülen die Falten offen halten."
+    },
+    "group": "Filters",
+    "material": {
+      "en": "Paper",
+      "de": "Papier"
+    },
+    "methods": ["pour-over"],
+    "beginner": true,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/flatbed-paper-filters.webp",
+        "alt": {
+          "en": "Flatbed Paper Filters — original illustrative product photograph",
+          "de": "Flachboden-Papierfilter – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-18-STD",
+        "options": ["Standard"],
+        "price": "9.00",
+        "weightGrams": 100,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "reusable-cone-filter",
+    "title": {
+      "en": "Reusable Cone Filter",
+      "de": "Wiederverwendbarer Kegelfilter"
+    },
+    "description": {
+      "en": "A reusable mesh alternative for Cone Brewer 02. Expect more texture in the cup than with paper. Currently sold out in this practice catalog.",
+      "de": "Eine wiederverwendbare Sieb-Alternative für Kegelfilter 02. Mehr Textur in der Tasse als mit Papier. Im Übungskatalog derzeit ausverkauft."
+    },
+    "group": "Filters",
+    "material": {
+      "en": "Stainless steel mesh",
+      "de": "Edelstahlgewebe"
+    },
+    "methods": ["pour-over"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/reusable-cone-filter.webp",
+        "alt": {
+          "en": "Reusable Cone Filter — original illustrative product photograph",
+          "de": "Wiederverwendbarer Kegelfilter – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-19-STD",
+        "options": ["Standard"],
+        "price": "18.00",
+        "weightGrams": 100,
+        "capacityMl": null,
+        "initialStock": 0,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "press-mesh-filter",
+    "title": {
+      "en": "Press Mesh Filter",
+      "de": "Pressen-Ersatzsieb"
+    },
+    "description": {
+      "en": "A replacement mesh for the 600 ml French Press. Refresh one part instead of replacing the whole brewer.",
+      "de": "Ein Ersatzsieb für die 600-ml-French-Press. Ersetze ein Teil statt den ganzen Kaffeebereiter."
+    },
+    "group": "Filters",
+    "material": {
+      "en": "Stainless steel mesh",
+      "de": "Edelstahlgewebe"
+    },
+    "methods": ["immersion"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/press-mesh-filter.webp",
+        "alt": {
+          "en": "Press Mesh Filter — original illustrative product photograph",
+          "de": "Pressen-Ersatzsieb – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-20-STD",
+        "options": ["Standard"],
+        "price": "12.00",
+        "weightGrams": 100,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "brewer-seal-ring",
+    "title": {
+      "en": "Brewer Seal Ring",
+      "de": "Dichtungsring für den Kaffeebereiter"
+    },
+    "description": {
+      "en": "A small part that makes a difference. This seal is sized for the Immersion Brewer release valve only.",
+      "de": "Ein kleines Teil mit großer Aufgabe. Diese Dichtung passt ausschließlich zum Ventil des Immersionsfilters."
+    },
+    "group": "Parts",
+    "material": {
+      "en": "Food-grade silicone",
+      "de": "Lebensmittelechtes Silikon"
+    },
+    "methods": ["immersion", "travel"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/brewer-seal-ring.webp",
+        "alt": {
+          "en": "Brewer Seal Ring — original illustrative product photograph",
+          "de": "Dichtungsring für den Kaffeebereiter – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-21-STD",
+        "options": ["Standard"],
+        "price": "6.00",
+        "weightGrams": 60,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "grinder-burr-set",
+    "title": {
+      "en": "Grinder Burr Set",
+      "de": "Ersatzmahlwerk"
+    },
+    "description": {
+      "en": "Replacement burrs for the Burr Hand Grinder. Follow the care guide and retain your original adjustment assembly.",
+      "de": "Ersatzmahlwerk für die Handmühle mit Kegelmahlwerk. Pflegehinweise beachten und die vorhandene Verstelleinheit weiterverwenden."
+    },
+    "group": "Parts",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["pour-over", "immersion"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/grinder-burr-set.webp",
+        "alt": {
+          "en": "Grinder Burr Set — original illustrative product photograph",
+          "de": "Ersatzmahlwerk – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-22-STD",
+        "options": ["Standard"],
+        "price": "24.00",
+        "weightGrams": 60,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "carafe-lid",
+    "title": {
+      "en": "Carafe Lid",
+      "de": "Karaffendeckel"
+    },
+    "description": {
+      "en": "A simple replacement lid for the 600 ml Glass Carafe. Keep your familiar server in the morning rotation.",
+      "de": "Ein einfacher Ersatzdeckel für die 600-ml-Glaskaraffe. So bleibt dein vertrauter Server Teil der Morgenroutine."
+    },
+    "group": "Parts",
+    "material": {
+      "en": "Silicone and glass",
+      "de": "Silikon und Glas"
+    },
+    "methods": ["pour-over"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/carafe-lid.webp",
+        "alt": {
+          "en": "Carafe Lid — original illustrative product photograph",
+          "de": "Karaffendeckel – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-23-STD",
+        "options": ["Standard"],
+        "price": "9.00",
+        "weightGrams": 60,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  },
+  {
+    "handle": "press-plunger",
+    "title": {
+      "en": "Press Plunger",
+      "de": "Pressstempel"
+    },
+    "description": {
+      "en": "A complete plunger assembly for the 600 ml French Press. Includes the rod, plate and mesh; the glass vessel is separate.",
+      "de": "Kompletter Pressstempel für die 600-ml-French-Press. Mit Stange, Platte und Sieb; die Glaskanne ist separat."
+    },
+    "group": "Parts",
+    "material": {
+      "en": "Stainless steel",
+      "de": "Edelstahl"
+    },
+    "methods": ["immersion"],
+    "beginner": false,
+    "guide": null,
+    "excludeCountries": [],
+    "care": {
+      "en": "Rinse after use and dry thoroughly. Hand washing is recommended for this demonstration product.",
+      "de": "Nach Gebrauch spülen und gründlich trocknen. Für dieses Demonstrationsprodukt wird Handwäsche empfohlen."
+    },
+    "media": [
+      {
+        "file": "design/assets/press-plunger.webp",
+        "alt": {
+          "en": "Press Plunger — original illustrative product photograph",
+          "de": "Pressstempel – ursprüngliches beispielhaftes Produktfoto"
+        }
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "de": "Größe",
+        "values": ["Standard"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BB-24-STD",
+        "options": ["Standard"],
+        "price": "16.00",
+        "weightGrams": 60,
+        "capacityMl": null,
+        "initialStock": 30,
+        "compatibleSkus": []
+      }
+    ]
+  }
+]

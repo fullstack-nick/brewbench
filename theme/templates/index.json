@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "hero": {
+      "type": "bb-hero",
+      "settings": {
+        "collection": "brewers"
+      }
+    },
+    "principles": {
+      "type": "bb-principles",
+      "settings": {}
+    },
+    "methods": {
+      "type": "bb-methods",
+      "blocks": {
+        "pour": {
+          "type": "method",
+          "settings": {
+            "collection": "pour-over"
+          }
+        },
+        "steep": {
+          "type": "method",
+          "settings": {
+            "collection": "immersion"
+          }
+        },
+        "travel": {
+          "type": "method",
+          "settings": {
+            "collection": "travel"
+          }
+        }
+      },
+      "block_order": [
+        "pour",
+        "steep",
+        "travel"
+      ],
+      "settings": {}
+    },
+    "featured": {
+      "type": "bb-featured",
+      "settings": {
+        "collection": "beginner-equipment",
+        "products_to_show": 4
+      }
+    },
+    "faq": {
+      "type": "bb-faq",
+      "blocks": {
+        "fit": {
+          "type": "question",
+          "settings": {}
+        },
+        "demo": {
+          "type": "question",
+          "settings": {
+            "question": "Is this a real shop?",
+            "answer": "<p>Brewbench is a fictional practice project. Checkout uses a test gateway and no goods are shipped.</p>",
+            "question_de": "Ist das ein echter Shop?",
+            "answer_de": "<p>Brewbench ist ein fiktives Übungsprojekt. Der Checkout nutzt ein Test-Zahlungsgateway; es werden keine Waren versandt.</p>"
+          }
+        },
+        "currency": {
+          "type": "question",
+          "settings": {
+            "question": "Can I browse in German?",
+            "answer": "<p>Yes. English and German are available. Choose Austria, Germany or the United Kingdom for delivery. All prices and test payments remain in EUR.</p>",
+            "question_de": "Kann ich auf Deutsch stöbern?",
+            "answer_de": "<p>Ja. Deutsch und Englisch sind verfügbar. Wähle Österreich, Deutschland oder das Vereinigte Königreich als Lieferland. Alle Preise und Testzahlungen bleiben in EUR.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "fit",
+        "demo",
+        "currency"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "principles",
+    "methods",
+    "featured",
+    "faq"
+  ]
+}

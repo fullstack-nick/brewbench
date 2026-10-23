@@ -1,0 +1,124 @@
+{
+  "phase": "after",
+  "at": "2026-10-23T06:49:03.879Z",
+  "engine": "Chromium bundled with Playwright 1.64.1",
+  "profile": "Lighthouse mobile simulation; 1.6 Mbps, 150 ms RTT, CPU slowdown 4x; cache cleared per run; authenticated preview; no Lighthouse storage reset",
+  "runs": [
+    {
+      "page": "home",
+      "run": 1,
+      "score": 0.85,
+      "LCP_ms": 3380.1027000000013,
+      "FCP_ms": 2611.0864000000006,
+      "TBT_ms": 194.00000000000045,
+      "CLS": 0,
+      "bytes": 671411
+    },
+    {
+      "page": "home",
+      "run": 2,
+      "score": 0.74,
+      "LCP_ms": 3365.434949999999,
+      "FCP_ms": 2652.605475,
+      "TBT_ms": 553.0000000000014,
+      "CLS": 0,
+      "bytes": 689242
+    },
+    {
+      "page": "home",
+      "run": 3,
+      "score": 0.87,
+      "LCP_ms": 3408.8124000000007,
+      "FCP_ms": 2628.0537750000003,
+      "TBT_ms": 111,
+      "CLS": 0,
+      "bytes": 686706
+    },
+    {
+      "page": "collection",
+      "run": 1,
+      "score": 0.68,
+      "LCP_ms": 3817.0671,
+      "FCP_ms": 2695.4923,
+      "TBT_ms": 624.4999999999986,
+      "CLS": 0.0005153170413111971,
+      "bytes": 608745
+    },
+    {
+      "page": "collection",
+      "run": 2,
+      "score": 0.66,
+      "LCP_ms": 4737.451650000001,
+      "FCP_ms": 2716.6775499999994,
+      "TBT_ms": 496.00000000000045,
+      "CLS": 0,
+      "bytes": 561322
+    },
+    {
+      "page": "collection",
+      "run": 3,
+      "score": 0.5,
+      "LCP_ms": 4798.248199999998,
+      "FCP_ms": 2703.4748999999997,
+      "TBT_ms": 1505.499999999999,
+      "CLS": 0.0003388869555002647,
+      "bytes": 574668
+    },
+    {
+      "page": "product",
+      "run": 1,
+      "score": 0.7,
+      "LCP_ms": 3759.024499999998,
+      "FCP_ms": 2716.2203999999997,
+      "TBT_ms": 585.9999999999995,
+      "CLS": 0,
+      "bytes": 574557
+    },
+    {
+      "page": "product",
+      "run": 2,
+      "score": 0.78,
+      "LCP_ms": 3121.3224999999998,
+      "FCP_ms": 2704.1478500000003,
+      "TBT_ms": 467.5000000000018,
+      "CLS": 0,
+      "bytes": 553963
+    },
+    {
+      "page": "product",
+      "run": 3,
+      "score": 0.73,
+      "LCP_ms": 3684.758600000001,
+      "FCP_ms": 2715.6353500000005,
+      "TBT_ms": 468,
+      "CLS": 0,
+      "bytes": 546622
+    }
+  ],
+  "medians": {
+    "home": {
+      "score": 0.85,
+      "LCP_ms": 3380.1027000000013,
+      "FCP_ms": 2628.0537750000003,
+      "TBT_ms": 194.00000000000045,
+      "CLS": 0,
+      "bytes": 686706
+    },
+    "collection": {
+      "score": 0.66,
+      "LCP_ms": 4737.451650000001,
+      "FCP_ms": 2703.4748999999997,
+      "TBT_ms": 624.4999999999986,
+      "CLS": 0.0003388869555002647,
+      "bytes": 574668
+    },
+    "product": {
+      "score": 0.73,
+      "LCP_ms": 3684.758600000001,
+      "FCP_ms": 2715.6353500000005,
+      "TBT_ms": 468,
+      "CLS": 0,
+      "bytes": 553963
+    }
+  }
+}

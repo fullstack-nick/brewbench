@@ -1,0 +1,52 @@
+[
+  {
+    "handle": "a-calm-pour-over",
+    "title": {
+      "en": "A calmer way to pour.",
+      "de": "In Ruhe aufgießen."
+    },
+    "intro": {
+      "en": "Start with 15 g of medium-ground coffee and 250 ml of hot water. Adjust to taste. These are illustrative recipe notes for this practice store.",
+      "de": "Beginne mit 15 g mittelfein gemahlenem Kaffee und 250 ml heißem Wasser. Passe das Rezept an deinen Geschmack an. Beispielrezept für diesen Übungsstore."
+    },
+    "steps": [
+      {
+        "handle": "rinse",
+        "title": {
+          "en": "Rinse & warm",
+          "de": "Spülen & vorwärmen"
+        },
+        "body": {
+          "en": "Place the matching paper in your brewer, rinse with hot water and discard the rinse water.",
+          "de": "Passenden Papierfilter einsetzen, mit heißem Wasser spülen und das Spülwasser wegschütten."
+        },
+        "duration": 20
+      },
+      {
+        "handle": "bloom",
+        "title": {
+          "en": "Give it a moment",
+          "de": "Einen Moment geben"
+        },
+        "body": {
+          "en": "Add your coffee. Pour 40 ml of water over the grounds and wait for 30 seconds.",
+          "de": "Kaffee einfüllen. 40 ml Wasser aufgießen und 30 Sekunden warten."
+        },
+        "duration": 30
+      },
+      {
+        "handle": "pour",
+        "title": {
+          "en": "Pour, slowly",
+          "de": "Langsam aufgießen"
+        },
+        "body": {
+          "en": "Pour the remaining water in gentle circles. Let it draw down, remove the brewer and enjoy.",
+          "de": "Das restliche Wasser in ruhigen Kreisen aufgießen. Durchlaufen lassen, Filter abnehmen und genießen."
+        },
+        "duration": 150
+      }
+    ],
+    "equipment": ["cone-brewer", "gooseneck-kettle", "glass-carafe"]
+  }
+]

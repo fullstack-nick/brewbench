@@ -1,0 +1,19 @@
+<section class="bb-faq page-width bb-section" aria-labelledby="FaqHeading-{{ section.id }}">
+  <div><p class="bb-eyebrow">{{ 'brewbench.faq.eyebrow' | t }}</p><h2 id="FaqHeading-{{ section.id }}">{{ 'brewbench.faq.heading' | t }}</h2><a class="bb-text-link" href="{{ pages['faq'].url }}">{{ 'brewbench.faq.more' | t }} <span aria-hidden="true">↗</span></a></div>
+  <div>
+    {% for block in section.blocks %}
+      {%- liquid
+        assign question = block.settings.question
+        assign answer = block.settings.answer
+        if request.locale.iso_code == 'de'
+          assign question = block.settings.question_de | default: question
+          assign answer = block.settings.answer_de | default: answer
+        endif
+      -%}
+      {% if question != blank and answer != blank %}<details {{ block.shopify_attributes }}><summary>{{ question | escape }}<span aria-hidden="true">+</span></summary><div class="rte">{{ answer }}</div></details>{% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% schema %}
+{"name":"Brewbench FAQ","settings":[],"blocks":[{"type":"question","name":"Question","settings":[{"type":"text","id":"question","label":"Question (English)","default":"Which filter fits my brewer?"},{"type":"richtext","id":"answer","label":"Answer (English)","default":"<p>Select your brewer size. We show the filters and parts that fit that exact variant.</p>"},{"type":"text","id":"question_de","label":"Question (German)","default":"Welcher Filter passt zu meinem Kaffeebereiter?"},{"type":"richtext","id":"answer_de","label":"Answer (German)","default":"<p>Wähle die Größe deines Kaffeebereiters. Wir zeigen Filter und Teile, die zu genau dieser Variante passen.</p>"}]}],"presets":[{"name":"Brewbench FAQ","blocks":[{"type":"question"}]}]}
+{% endschema %}

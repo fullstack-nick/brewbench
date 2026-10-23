@@ -1,0 +1,20 @@
+query Menus($after: String) {
+  menus(first: 50, after: $after) {
+    nodes {
+      id
+      handle
+      title
+      items {
+        id
+        title
+        type
+        url
+        resourceId
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

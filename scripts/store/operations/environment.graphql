@@ -1,0 +1,40 @@
+query Environment {
+  shop {
+    name
+    myshopifyDomain
+    currencyCode
+    shipsToCountries
+  }
+  shopLocales {
+    locale
+    primary
+    published
+    marketWebPresences {
+      id
+    }
+  }
+  locations(first: 20) {
+    nodes {
+      id
+      name
+      isActive
+      fulfillsOnlineOrders
+    }
+  }
+  markets(first: 20) {
+    nodes {
+      id
+      name
+      status
+    }
+  }
+  publications(first: 20) {
+    nodes {
+      id
+      catalog {
+        id
+        title
+      }
+    }
+  }
+}

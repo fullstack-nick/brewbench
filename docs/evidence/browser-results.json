@@ -1,0 +1,233 @@
+{
+  "at": "2026-10-23T07:29:07.843Z",
+  "total": 37,
+  "passed": 37,
+  "failed": 0,
+  "skipped": 0,
+  "flaky": 0,
+  "durationMs": 291822.22000000003,
+  "tests": [
+    {
+      "title": "authenticate the password-protected development storefront",
+      "project": "setup",
+      "status": "passed",
+      "durationMs": 1654
+    },
+    {
+      "title": "exact variant, compatibility, drawer quantity, removal and focus",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 12239
+    },
+    {
+      "title": "rapid selection never renders a stale or unavailable variant",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 3921
+    },
+    {
+      "title": "stock errors are announced and recover without false additions",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 5080
+    },
+    {
+      "title": "consent is affirmative, QA exposure is deduplicated, withdrawal purges data",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 7687
+    },
+    {
+      "title": "storage failure leaves shopping usable",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 4569
+    },
+    {
+      "title": "privacy API load failure leaves shopping usable without tracking",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 3204
+    },
+    {
+      "title": "discovery supports pagination, sorting, zero results and long German content",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 7660
+    },
+    {
+      "title": "product controls pass automated accessibility and reduced-motion drawer checks",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 4505
+    },
+    {
+      "title": "German quick-add uses the locale cart endpoint and exact filter",
+      "project": "chromium-desktop",
+      "status": "passed",
+      "durationMs": 4403
+    },
+    {
+      "title": "exact variant, compatibility, drawer quantity, removal and focus",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 9666
+    },
+    {
+      "title": "rapid selection never renders a stale or unavailable variant",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 6206
+    },
+    {
+      "title": "stock errors are announced and recover without false additions",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 5826
+    },
+    {
+      "title": "consent is affirmative, QA exposure is deduplicated, withdrawal purges data",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 11689
+    },
+    {
+      "title": "storage failure leaves shopping usable",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 5721
+    },
+    {
+      "title": "privacy API load failure leaves shopping usable without tracking",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 3251
+    },
+    {
+      "title": "discovery supports pagination, sorting, zero results and long German content",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 7847
+    },
+    {
+      "title": "product controls pass automated accessibility and reduced-motion drawer checks",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 4743
+    },
+    {
+      "title": "German quick-add uses the locale cart endpoint and exact filter",
+      "project": "chromium-mobile",
+      "status": "passed",
+      "durationMs": 4025
+    },
+    {
+      "title": "exact variant, compatibility, drawer quantity, removal and focus",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 17015
+    },
+    {
+      "title": "rapid selection never renders a stale or unavailable variant",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 6526
+    },
+    {
+      "title": "stock errors are announced and recover without false additions",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 7789
+    },
+    {
+      "title": "consent is affirmative, QA exposure is deduplicated, withdrawal purges data",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 10697
+    },
+    {
+      "title": "storage failure leaves shopping usable",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 6141
+    },
+    {
+      "title": "privacy API load failure leaves shopping usable without tracking",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 5545
+    },
+    {
+      "title": "discovery supports pagination, sorting, zero results and long German content",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 11898
+    },
+    {
+      "title": "product controls pass automated accessibility and reduced-motion drawer checks",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 7028
+    },
+    {
+      "title": "German quick-add uses the locale cart endpoint and exact filter",
+      "project": "firefox-desktop",
+      "status": "passed",
+      "durationMs": 11109
+    },
+    {
+      "title": "exact variant, compatibility, drawer quantity, removal and focus",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 12540
+    },
+    {
+      "title": "rapid selection never renders a stale or unavailable variant",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 11164
+    },
+    {
+      "title": "stock errors are announced and recover without false additions",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 16215
+    },
+    {
+      "title": "consent is affirmative, QA exposure is deduplicated, withdrawal purges data",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 22059
+    },
+    {
+      "title": "storage failure leaves shopping usable",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 2947
+    },
+    {
+      "title": "privacy API load failure leaves shopping usable without tracking",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 2661
+    },
+    {
+      "title": "discovery supports pagination, sorting, zero results and long German content",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 5616
+    },
+    {
+      "title": "product controls pass automated accessibility and reduced-motion drawer checks",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 3305
+    },
+    {
+      "title": "German quick-add uses the locale cart endpoint and exact filter",
+      "project": "webkit-desktop",
+      "status": "passed",
+      "durationMs": 5062
+    }
+  ]
+}

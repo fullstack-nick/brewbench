@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-23T07:28:56.763Z",
+  "faults": "Intentional QA-only injection; no defective production theme is deployed.",
+  "variantBefore": {
+    "selected": "02 · 500 ml",
+    "addedSKU": "BB-CONE-01-CHALK",
+    "expectedSKU": "BB-CONE-02-CHALK"
+  },
+  "variantAfter": {
+    "selected": "02 · 500 ml",
+    "addedSKU": "BB-CONE-02-CHALK",
+    "passed": true
+  },
+  "tracking": {
+    "source": "Observed event copied into an intentionally broken local fixture",
+    "beforeCount": 2,
+    "afterCount": 1,
+    "oneCartAddition": true
+  },
+  "observedEventCounts": {
+    "view_item": 2,
+    "experiment_exposure": 1,
+    "add_to_cart": 2
+  },
+  "sharedGuide": {
+    "oneAPIEdit": true,
+    "renderedOn": [
+      "cone-brewer",
+      "flatbed-brewer"
+    ],
+    "restored": true
+  }
+}

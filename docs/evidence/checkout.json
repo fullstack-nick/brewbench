@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-23T07:38:34.674Z",
+  "testGateway": true,
+  "declineRecovered": true,
+  "items": [
+    {
+      "sku": "BB-CONE-02-CHALK",
+      "quantity": 1,
+      "priceEUR": 38
+    },
+    {
+      "sku": "BB-17-STD",
+      "quantity": 1,
+      "priceEUR": 8
+    }
+  ],
+  "currency": "EUR",
+  "shipping": [
+    {
+      "country": "AT",
+      "shippingEUR": "4.90",
+      "observed": true
+    },
+    {
+      "country": "DE",
+      "shippingEUR": "6.90",
+      "observed": true
+    },
+    {
+      "country": "GB",
+      "shippingEUR": "9.90",
+      "observed": true
+    }
+  ],
+  "totalEUR": 55.9,
+  "browserConfirmation": true
+}

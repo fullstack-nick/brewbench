@@ -1,0 +1,44 @@
+query Introspect($name: String!) {
+  __type(name: $name) {
+    name
+    kind
+    isOneOf
+    fields {
+      name
+      args {
+        name
+        type {
+          ...TypeRef
+        }
+      }
+      type {
+        ...TypeRef
+      }
+    }
+    inputFields {
+      name
+      type {
+        ...TypeRef
+      }
+    }
+    enumValues {
+      name
+    }
+  }
+}
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+      }
+    }
+  }
+}

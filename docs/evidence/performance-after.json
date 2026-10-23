@@ -1,0 +1,125 @@
+{
+  "phase": "after",
+  "at": "2026-10-23T07:13:04.888Z",
+  "engine": "Chromium bundled with Playwright 1.64.1",
+  "profile": "Lighthouse mobile simulation; 1.6 Mbps, 150 ms RTT, CPU slowdown 4x; cache cleared per run; authenticated preview; no Lighthouse storage reset",
+  "runs": [
+    {
+      "page": "home",
+      "run": 1,
+      "score": 0.74,
+      "LCP_ms": 2883.2328,
+      "FCP_ms": 2693.8,
+      "TBT_ms": 680.5000000000014,
+      "CLS": 0.001544755086645521,
+      "bytes": 603773
+    },
+    {
+      "page": "home",
+      "run": 2,
+      "score": 0.87,
+      "LCP_ms": 3415.1454499999995,
+      "FCP_ms": 2682.891524999999,
+      "TBT_ms": 60,
+      "CLS": 0,
+      "bytes": 588284
+    },
+    {
+      "page": "home",
+      "run": 3,
+      "score": 0.85,
+      "LCP_ms": 3404.2209999999995,
+      "FCP_ms": 2744.43495,
+      "TBT_ms": 164.5,
+      "CLS": 0,
+      "bytes": 560062
+    },
+    {
+      "page": "collection",
+      "run": 1,
+      "score": 0.85,
+      "LCP_ms": 2833.85325,
+      "FCP_ms": 2833.85325,
+      "TBT_ms": 282.36605000000054,
+      "CLS": 0,
+      "bytes": 492263
+    },
+    {
+      "page": "collection",
+      "run": 2,
+      "score": 0.64,
+      "LCP_ms": 4948.251300000001,
+      "FCP_ms": 2781.905,
+      "TBT_ms": 524.9043499999989,
+      "CLS": 0.0003388869555002647,
+      "bytes": 514453
+    },
+    {
+      "page": "collection",
+      "run": 3,
+      "score": 0.86,
+      "LCP_ms": 3541.3595499999988,
+      "FCP_ms": 2757.41835,
+      "TBT_ms": 48.999999999999545,
+      "CLS": 0,
+      "bytes": 516734
+    },
+    {
+      "page": "product",
+      "run": 1,
+      "score": 0.9,
+      "LCP_ms": 2944.09695,
+      "FCP_ms": 2811.05585,
+      "TBT_ms": 82.00000000000045,
+      "CLS": 0,
+      "bytes": 508197
+    },
+    {
+      "page": "product",
+      "run": 2,
+      "score": 0.87,
+      "LCP_ms": 3089.3508999999995,
+      "FCP_ms": 2747.9172,
+      "TBT_ms": 179.49999999999955,
+      "CLS": 0,
+      "bytes": 521674
+    },
+    {
+      "page": "product",
+      "run": 3,
+      "score": 0.8,
+      "LCP_ms": 3944.5467500000004,
+      "FCP_ms": 2767.2111000000004,
+      "TBT_ms": 194,
+      "CLS": 0,
+      "bytes": 512662
+    }
+  ],
+  "note": "The local Chromium debugging connection closed after seven valid runs. Resumed the remaining two product runs without replacing completed observations.",
+  "medians": {
+    "home": {
+      "score": 0.85,
+      "LCP_ms": 3404.2209999999995,
+      "FCP_ms": 2693.8,
+      "TBT_ms": 164.5,
+      "CLS": 0,
+      "bytes": 588284
+    },
+    "collection": {
+      "score": 0.85,
+      "LCP_ms": 3541.3595499999988,
+      "FCP_ms": 2781.905,
+      "TBT_ms": 282.36605000000054,
+      "CLS": 0,
+      "bytes": 514453
+    },
+    "product": {
+      "score": 0.87,
+      "LCP_ms": 3089.3508999999995,
+      "FCP_ms": 2767.2111000000004,
+      "TBT_ms": 179.49999999999955,
+      "CLS": 0,
+      "bytes": 512662
+    }
+  }
+}

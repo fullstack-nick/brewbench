@@ -1,0 +1,132 @@
+{
+  "tool": "OpenAI built-in image generation",
+  "date": "2026-10-23",
+  "purpose": "Original fictional product imagery; not evidence of physical products",
+  "assets": [
+    {
+      "file": "cone-brewer.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Original centered catalog photograph of the named coffee tool on warm ivory, soft studio lighting, no logos or text."
+    },
+    {
+      "file": "flatbed-brewer.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Original centered catalog photograph of the named coffee tool on warm ivory, soft studio lighting, no logos or text."
+    },
+    {
+      "file": "immersion-brewer.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Original centered catalog photograph of the named coffee tool on warm ivory, soft studio lighting, no logos or text."
+    },
+    {
+      "file": "french-press.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Original centered catalog photograph of the named coffee tool on warm ivory, soft studio lighting, no logos or text."
+    },
+    {
+      "file": "travel-brewer.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Original centered catalog photograph of the named coffee tool on warm ivory, soft studio lighting, no logos or text."
+    },
+    {
+      "file": "burr-hand-grinder.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Original centered catalog photograph of the named coffee tool on warm ivory, soft studio lighting, no logos or text."
+    },
+    {
+      "file": "compact-hand-grinder.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one small sand-colored aluminium cylindrical hand coffee grinder with short stainless crank and dark wooden knob, slim compact body. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "precision-hand-grinder.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one tall brushed stainless manual coffee grinder with a fine ridged adjustment collar, dark charcoal grip, long crank and black knob. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "travel-hand-grinder.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one short matte olive aluminium hand coffee grinder, slim cylinder with detachable stainless handle placed neatly alongside. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "gooseneck-kettle.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one matte olive unpowered gooseneck pouring kettle, narrow elegant curved spout and black loop handle, no cable. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "stovetop-kettle.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one brushed stainless stovetop water kettle, broad rounded belly, simple short spout and black arched handle. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "pouring-jug.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one small open brushed stainless milk-pitcher-shaped coffee pouring jug, narrow precision spout and slim curved handle, no lid. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "glass-carafe.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one clear borosilicate glass coffee carafe with a rounded lower body, wide open neck, slender glass handle and no printed markings, empty. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, labels or known branded product design."
+    },
+    {
+      "file": "thermal-carafe.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one matte ivory insulated coffee serving carafe with deep olive removable lid and a curved olive handle, softly rounded body. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, labels or known branded product design."
+    },
+    {
+      "file": "small-glass-server.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one tiny clear glass coffee serving jug with tapered body, open spout and simple small curved glass handle, empty, no lid. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, labels or known branded product design."
+    },
+    {
+      "file": "cone-paper-filters-01.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: a small stack of unbleached tan cone-shaped paper coffee filters with sharply pointed tips, one small filter opened beside the stack, no packaging. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, labels or known branded product design."
+    },
+    {
+      "file": "cone-paper-filters-02.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: a generous stack of unbleached tan cone coffee filters with pointed tips and one larger filter opened beside it, no packaging. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, labels or known branded product design."
+    },
+    {
+      "file": "flatbed-paper-filters.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: a stack of round unbleached tan pleated paper coffee filters with flat circular bottoms and fluted upright sides, one filter beside the stack, no packaging. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, labels or known branded product design."
+    },
+    {
+      "file": "reusable-cone-filter.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one stainless fine-mesh reusable cone coffee filter, pointed basket with broad polished rim and small flat handle. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "press-mesh-filter.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one flat circular fine stainless mesh replacement disc for a French press, reinforced steel rim and tiny center hole, lying at an angle on the table. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "brewer-seal-ring.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one small charcoal silicone O-ring seal for a coffee brewer, lying flat at a slight perspective angle, close-up detail. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "grinder-burr-set.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one matching pair of stainless conical coffee grinder burrs, small precision-machined inner cone standing beside the wider ring, teeth visible. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "carafe-lid.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one small circular clear glass carafe lid with a soft olive silicone sealing rim and tiny round glass knob. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "press-plunger.webp",
+      "processing": "Resized to 1200px and encoded WebP at quality 85; no compositing.",
+      "promptSummary": "Use case: product-mockup. Original catalog photograph for Brewbench fictional home coffee equipment demo. Subject: one slim stainless French press replacement plunger assembly standing upright, straight metal rod, small round knob on top, round mesh disc and coil-edged filter at bottom, no glass vessel. Single product centered on solid warm ivory #f1f0e8 tabletop and matching background. Soft studio light upper left, realistic grounded shadow, crisp tactile materials. Square composition, entire product visible with generous margins, premium restrained editorial style. No text, logos, watermark, packaging or known branded product design."
+    },
+    {
+      "file": "morning-ritual.png",
+      "processing": "1536×1024 source. Responsive WebP assets at widths 480, 750, 1100 and 1536, quality 78; no upscaling. The original baseline WebP is retained for provenance.",
+      "promptSummary": "Original editorial still life for Brewbench: ceramic brewer, glass carafe and olive kettle on a warm morning coffee bench, natural side light, no logos or text."
+    }
+  ]
+}

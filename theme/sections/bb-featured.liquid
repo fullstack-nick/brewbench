@@ -1,0 +1,13 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+<section class="bb-section page-width" aria-labelledby="FeaturedHeading-{{ section.id }}">
+  <div class="bb-section-heading"><div><p class="bb-eyebrow">{{ 'brewbench.featured.eyebrow' | t }}</p><h2 id="FeaturedHeading-{{ section.id }}">{{ 'brewbench.featured.heading' | t }}</h2></div><a class="bb-text-link" href="{{ section.settings.collection.url | default: routes.all_products_collection_url }}">{{ 'brewbench.featured.all' | t }} <span aria-hidden="true">↗</span></a></div>
+  <ul class="grid product-grid grid--4-col-desktop grid--2-col-tablet-down" role="list">
+    {% for card_product in section.settings.collection.products limit: section.settings.products_to_show %}
+      <li class="grid__item">{% render 'card-product', card_product: card_product, media_aspect_ratio: 'square', show_secondary_image: false, show_vendor: false, lazy_load: true, section_id: section.id %}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% schema %}
+{"name":"Brewbench featured tools","settings":[{"type":"collection","id":"collection","label":"Collection"},{"type":"range","id":"products_to_show","label":"Products","min":2,"max":8,"step":1,"default":4}],"presets":[{"name":"Brewbench featured tools"}]}
+{% endschema %}

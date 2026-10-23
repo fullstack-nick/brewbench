@@ -1,0 +1,223 @@
+{
+  "source": "deterministic synthetic data only",
+  "rawEvents": 13812,
+  "duplicatesRemoved": 365,
+  "excludedEvents": 1651,
+  "missingExposureVisitors": 37,
+  "assignmentConflicts": 0,
+  "groups": {
+    "control": {
+      "exposed": 1659,
+      "added": 301,
+      "rate": 0.18143459915611815,
+      "interval": [
+        0.1636326955880122,
+        0.2007084418961595
+      ],
+      "attached": 67,
+      "purchased": 74,
+      "errors": 15,
+      "latencyP75": 233,
+      "clsP75": 0.01
+    },
+    "treatment": {
+      "exposed": 1815,
+      "added": 323,
+      "rate": 0.17796143250688706,
+      "interval": [
+        0.16105053179021844,
+        0.19623269727161963
+      ],
+      "attached": 149,
+      "purchased": 79,
+      "errors": 57,
+      "latencyP75": 256,
+      "clsP75": 0.01
+    }
+  },
+  "segments": {
+    "AT/desktop": {
+      "control": {
+        "exposed": 274,
+        "added": 44,
+        "rate": 0.16058394160583941,
+        "interval": [
+          0.12185108133134807,
+          0.20870273062481687
+        ],
+        "attached": 8,
+        "purchased": 11,
+        "errors": 5,
+        "latencyP75": 231,
+        "clsP75": 0.01
+      },
+      "treatment": {
+        "exposed": 306,
+        "added": 53,
+        "rate": 0.17320261437908496,
+        "interval": [
+          0.1349231431637973,
+          0.21958574137591588
+        ],
+        "attached": 23,
+        "purchased": 15,
+        "errors": 4,
+        "latencyP75": 231,
+        "clsP75": 0.01
+      }
+    },
+    "AT/mobile": {
+      "control": {
+        "exposed": 277,
+        "added": 45,
+        "rate": 0.1624548736462094,
+        "interval": [
+          0.12368417851585647,
+          0.2104600508290839
+        ],
+        "attached": 15,
+        "purchased": 12,
+        "errors": 2,
+        "latencyP75": 233,
+        "clsP75": 0.01
+      },
+      "treatment": {
+        "exposed": 302,
+        "added": 61,
+        "rate": 0.20198675496688742,
+        "interval": [
+          0.1605785506187699,
+          0.2508814992894179
+        ],
+        "attached": 29,
+        "purchased": 15,
+        "errors": 3,
+        "latencyP75": 234,
+        "clsP75": 0.01
+      }
+    },
+    "DE/desktop": {
+      "control": {
+        "exposed": 276,
+        "added": 59,
+        "rate": 0.213768115942029,
+        "interval": [
+          0.16950321671614496,
+          0.26589166381627055
+        ],
+        "attached": 17,
+        "purchased": 11,
+        "errors": 1,
+        "latencyP75": 233,
+        "clsP75": 0.01
+      },
+      "treatment": {
+        "exposed": 302,
+        "added": 79,
+        "rate": 0.26158940397350994,
+        "interval": [
+          0.21523620195361493,
+          0.31393183797293533
+        ],
+        "attached": 38,
+        "purchased": 16,
+        "errors": 8,
+        "latencyP75": 226,
+        "clsP75": 0.01
+      }
+    },
+    "DE/mobile": {
+      "control": {
+        "exposed": 277,
+        "added": 47,
+        "rate": 0.16967509025270758,
+        "interval": [
+          0.1300622561260742,
+          0.21832487740400114
+        ],
+        "attached": 9,
+        "purchased": 15,
+        "errors": 3,
+        "latencyP75": 232,
+        "clsP75": 0.01
+      },
+      "treatment": {
+        "exposed": 302,
+        "added": 58,
+        "rate": 0.19205298013245034,
+        "interval": [
+          0.1516040285290276,
+          0.24023802304276648
+        ],
+        "attached": 28,
+        "purchased": 16,
+        "errors": 5,
+        "latencyP75": 234,
+        "clsP75": 0.01
+      }
+    },
+    "GB/desktop": {
+      "control": {
+        "exposed": 277,
+        "added": 51,
+        "rate": 0.18411552346570398,
+        "interval": [
+          0.14290108199003662,
+          0.2339718599103087
+        ],
+        "attached": 7,
+        "purchased": 18,
+        "errors": 2,
+        "latencyP75": 233,
+        "clsP75": 0.01
+      },
+      "treatment": {
+        "exposed": 302,
+        "added": 56,
+        "rate": 0.18543046357615894,
+        "interval": [
+          0.1456453991083289,
+          0.23311798690586932
+        ],
+        "attached": 23,
+        "purchased": 13,
+        "errors": 4,
+        "latencyP75": 239,
+        "clsP75": 0.01
+      }
+    },
+    "GB/mobile": {
+      "control": {
+        "exposed": 278,
+        "added": 55,
+        "rate": 0.19784172661870503,
+        "interval": [
+          0.15526866484475066,
+          0.24865183518079553
+        ],
+        "attached": 11,
+        "purchased": 7,
+        "errors": 2,
+        "latencyP75": 234,
+        "clsP75": 0.01
+      },
+      "treatment": {
+        "exposed": 301,
+        "added": 16,
+        "rate": 0.053156146179401995,
+        "interval": [
+          0.03298080108630863,
+          0.08459370318082551
+        ],
+        "attached": 8,
+        "purchased": 4,
+        "errors": 33,
+        "latencyP75": 758,
+        "clsP75": 0.12
+      }
+    }
+  },
+  "srmChiSquare": 7.005181347150259,
+  "srmAlert": false,
+  "samplePerArm": 3881
+}

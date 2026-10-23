@@ -1,0 +1,21 @@
+{
+  "currency": "EUR",
+  "countries": [
+    {
+      "code": "AT",
+      "name": "Austria",
+      "rate": "4.90"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "rate": "6.90"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "rate": "9.90"
+    }
+  ],
+  "languages": ["en", "de"]
+}
