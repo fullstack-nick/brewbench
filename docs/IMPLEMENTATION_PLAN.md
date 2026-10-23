@@ -1,6 +1,6 @@
 # Brewbench implementation plan
 
-Research date: 23 October 2026. Status: preflight passed for the agreed core scope; ready for full storefront implementation. See [preflight results](PREFLIGHT_REPORT.md) for actual checkout, API, theme, and design evidence.
+Research and delivery date: 23 October 2026. Status: agreed core implemented and verified. See the [release record](RELEASE.md), [implementation record](IMPLEMENTATION_STATUS.md) and [QA evidence](QA.md). The [preflight report](PREFLIGHT_REPORT.md) preserves the earlier access and feasibility checks.
 
 This replaces the original learning roadmap with a delivery specification for one continuous implementation effort. Read [feasibility](FEASIBILITY.md) for platform evidence and [prerequisites](DECISIONS_AND_PREREQUISITES.md) before starting.
 

@@ -1,5 +1,5 @@
 import { chromium, expect } from "@playwright/test";
-import { writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 const phase = process.argv[2];
 if (!["release", "rollback"].includes(phase))
   throw new Error("Use release or rollback");
@@ -8,7 +8,7 @@ if (!expected)
   throw new Error("Set the expected live theme ID from the private ledger.");
 const browser = await chromium.launch();
 const context = await browser.newContext({
-  storageState: ".local/playwright/auth.json",
+  storageState: { cookies: [], origins: [] },
   viewport: { width: 1440, height: 1000 },
 });
 const page = await context.newPage();
@@ -16,10 +16,34 @@ const base = "https://brewbench-practice.myshopify.com";
 const result = { at: new Date().toISOString(), phase, liveThemeMatched: false };
 try {
   await page.goto(base + "/?pb=0", { waitUntil: "domcontentloaded" });
+  if (new URL(page.url()).pathname === "/password") {
+    const password = (
+      await readFile(
+        process.env.SHOPIFY_PASSWORD_FILE ||
+          ".local/preflight/storefront-password.txt",
+        "utf8",
+      )
+    ).trim();
+    if (!password) throw new Error("Storefront password file is empty");
+    const input = page.locator("input[name=password]");
+    if (!(await input.isVisible()))
+      await page.getByText("Enter using password", { exact: true }).click();
+    await input.fill(password);
+    await input.press("Enter");
+    await expect(page).not.toHaveURL(/\/password/);
+  }
   await expect(page.locator("#MainContent")).toBeVisible();
-  expect(String(await page.evaluate(() => Shopify.theme.id))).toBe(
-    String(expected),
-  );
+  // A preview session can remain pinned to its theme through Shopify's
+  // essential cookie. Authenticate a fresh visitor without any preview URL.
+  await expect
+    .poll(
+      async () => {
+        await page.goto(base + "/?pb=0", { waitUntil: "domcontentloaded" });
+        return String(await page.evaluate(() => Shopify.theme.id));
+      },
+      { timeout: 30000, intervals: [1000, 3000, 5000] },
+    )
+    .toBe(String(expected));
   result.liveThemeMatched = true;
   if (phase === "release") {
     await expect(page.locator(".bb-hero h1")).toContainText("Good coffee");
@@ -68,15 +92,44 @@ try {
         }));
         expect(seo.canonical).toBe("/products/cone-brewer");
         expect(seo.description.length).toBeGreaterThan(20);
-        expect(seo.structuredData.some((x) => x["@type"] === "Product")).toBe(
-          true,
+        const productGroup = seo.structuredData.find(
+          (x) => x["@type"] === "ProductGroup",
         );
+        expect(productGroup?.name).toBe("Cone Brewer");
+        const structuredVariants = productGroup.hasVariant.map((variant) => ({
+          type: variant["@type"],
+          sku: variant.sku,
+          currency: variant.offers.priceCurrency,
+          price: variant.offers.price,
+        }));
+        expect(structuredVariants).toEqual([
+          {
+            type: "Product",
+            sku: "BB-CONE-01-CHALK",
+            currency: "EUR",
+            price: "32.00",
+          },
+          {
+            type: "Product",
+            sku: "BB-CONE-01-OLIVE",
+            currency: "EUR",
+            price: "32.00",
+          },
+          {
+            type: "Product",
+            sku: "BB-CONE-02-CHALK",
+            currency: "EUR",
+            price: "38.00",
+          },
+        ]);
         result.seo = {
           title: seo.title,
           descriptionPresent: true,
           canonical: seo.canonical,
           alternates: seo.alternates,
           productStructuredData: true,
+          structuredDataType: productGroup["@type"],
+          variants: structuredVariants,
         };
       }
     }

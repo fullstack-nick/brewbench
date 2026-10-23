@@ -1,6 +1,6 @@
 # Local quality record
 
-Date: 23 October 2026. Environment: Windows, Node 24.19.0, Shopify CLI 4.9.4, Admin API 2026-10, Dawn 16.0.0 base, Playwright 1.64.1. The development storefront is password protected. There is no CI or remote test gate.
+Date: 23 October 2026. Environment: Windows, Node 24.19.0, Shopify CLI 4.9.4, Admin API 2026-10, Dawn 16.0.0 base, Playwright 1.64.1. The development storefront is password protected. There is no CI or remote test gate. Storefront source is commit `83173bc881722f5ab9ca00f9fc26780e577ac86e`; the [release record](RELEASE.md) identifies the unchanged theme tree and later delivery evidence.
 
 ## Checks
 

@@ -2,9 +2,11 @@
 
 Repository: [fullstack-nick/brewbench](https://github.com/fullstack-nick/brewbench). Store: [Brewbench practice](https://brewbench-practice.myshopify.com), free and password protected. This is a fictional demonstration with a test gateway, not a production launch.
 
-The feature branch is `feat/brewbench-storefront`. The release review records local checks, store data verification, browser journeys and known scope limits. No GitHub Actions, remote status requirements or deployment automation are configured.
+The feature branch is `feat/brewbench-storefront`; [pull request #1](https://github.com/fullstack-nick/brewbench/pull/1) records the reviewable implementation. The release is tagged `v1.0.0`. No GitHub Actions, remote status requirements or deployment automation are configured.
 
-## Candidate evidence
+## Release evidence
+
+Validated storefront source: commit [`83173bc881722f5ab9ca00f9fc26780e577ac86e`](https://github.com/fullstack-nick/brewbench/commit/83173bc881722f5ab9ca00f9fc26780e577ac86e), theme Git tree `9b96f1b728757eae3b0783bc42184a1b7df54624`. Later delivery commits add the live smoke harness, screenshots and release records; they do not change this theme tree. The final tag includes those records. Performance measurements predate the late cart-eligibility notice, as explained in the [performance report](PERFORMANCE.md).
 
 - 11 unit tests and catalog/format checks passed.
 - 37 storefront checks passed with zero skips, failures or flaky retries across four browser profiles.
@@ -18,7 +20,18 @@ Raw theme IDs, API state, order records, tokens and browser storage are kept in 
 
 ## Deployment and rollback
 
-Publication and rollback results are recorded below after the live-theme checks complete. Theme rollback only changes theme code: it does not undo catalog, translation, inventory or shipping writes. The original theme is retained, and selective data recovery follows [operations](OPERATIONS.md).
+On 23 October 2026 the CLI published Brewbench, republished the preceding `test-data` theme, and restored Brewbench. Fresh password-authenticated sessions without preview URLs verified each final state:
+
+- **07:47:45 UTC:** [rollback smoke passed](evidence/rollback-smoke.json); the original theme served the storefront.
+- **07:48:03 UTC:** [release smoke passed](evidence/release-smoke.json); Brewbench served home, collection, English/German product, guide, delivery, FAQ, cart, search and 404 routes with expected status codes.
+- The final CLI theme listing independently confirmed `Brewbench 1.0.0` has the live role and the original theme remains unpublished and available for rollback.
+- Product SEO checks confirmed description, canonical path, native EN/DE/x-default alternates and Shopify's `ProductGroup` with all three `Product` variants, exact SKUs, EUR prices and variant offers.
+
+The first smoke harness incorrectly expected a top-level `Product`; inspection showed Shopify correctly emits a `ProductGroup` for variants. The harness now checks the group and exact variant offers. A reused preview session also remained pinned to its candidate theme after rollback; live verification now starts with a fresh password-authenticated visitor. Those initial failures are not counted as passing rollback evidence.
+
+The frozen candidate was published and rehearsed before the final evidence commit/tag, so the tag includes actual deployment results. Theme rollback only changes theme code: it does not undo catalog, translation, inventory or shipping writes. The original theme is retained, and selective data recovery follows [operations](OPERATIONS.md).
+
+The locally packaged release asset is `Brewbench-1.0.0.zip`, SHA-256 `64ba5e11174493a5c5779e5d3b4956d9c9ca74d29d9a2f8c0f1695d247a371d5`. The [GitHub release](https://github.com/fullstack-nick/brewbench/releases/tag/v1.0.0) includes the theme ZIP and walkthrough MP4.
 
 ## Review boundaries
 

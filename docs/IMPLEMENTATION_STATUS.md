@@ -12,6 +12,8 @@ This file records delivery progress. A checkbox is only completed after evidence
 - [x] Consent, experiment, event mappings and synthetic analysis
 - [x] Local tests, browser journeys, accessibility and performance
 - [x] Three controlled incident exercises and recording
-- [ ] Public repository, reviewed PR, release, deployment and rollback
+- [x] Public repository, self-reviewed PR, release, deployment and rollback
 
 No CI or remote deployment automation is part of this project.
+
+Evidence: [release record](RELEASE.md), [QA](QA.md), [design](../design/README.md), [walkthrough](WALKTHROUGH.md). Review was performed by the implementing agent; no independent human approval is claimed.
