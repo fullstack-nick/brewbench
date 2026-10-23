@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-23T07:27:14.882Z",
+  "passed": true,
+  "existingProductCount": 42,
+  "activeManifestProducts": 24,
+  "existingCollectionCount": 12,
+  "existingPageCount": 7,
+  "identitiesPreserved": true,
+  "inventoryPreserved": true,
+  "largeBrewerRemaining": 29,
+  "note": "Includes archived generated sample products. Ordinary apply did not reset stock consumed by the real test order."
+}

@@ -1,0 +1,41 @@
+query WebPresences {
+  shop {
+    primaryDomain {
+      id
+      host
+    }
+  }
+  webPresences(first: 50) {
+    nodes {
+      id
+      domain {
+        id
+        host
+      }
+      defaultLocale {
+        locale
+      }
+      alternateLocales {
+        locale
+      }
+      markets(first: 20) {
+        nodes {
+          id
+          name
+        }
+      }
+    }
+  }
+  markets(first: 20) {
+    nodes {
+      id
+      name
+      status
+      webPresences(first: 20) {
+        nodes {
+          id
+        }
+      }
+    }
+  }
+}

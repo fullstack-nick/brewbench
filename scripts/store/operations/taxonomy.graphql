@@ -1,0 +1,15 @@
+query Taxonomy($search: String!) {
+  taxonomy {
+    categories(first: 50, search: $search) {
+      nodes {
+        id
+        name
+        fullName
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+mutation PublicationCreate($input: PublicationCreateInput!) {
+  publicationCreate(input: $input) {
+    publication {
+      id
+    }
+    userErrors {
+      field
+      message
+    }
+  }
+}

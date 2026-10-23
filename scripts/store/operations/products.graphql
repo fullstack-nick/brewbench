@@ -1,0 +1,92 @@
+query Products($after: String) {
+  products(first: 10, after: $after) {
+    nodes {
+      id
+      handle
+      title
+      descriptionHtml
+      status
+      vendor
+      productType
+      tags
+      category {
+        id
+        name
+      }
+      options {
+        id
+        name
+        optionValues {
+          id
+          name
+        }
+      }
+      media(first: 10) {
+        nodes {
+          id
+          alt
+          status
+          ... on MediaImage {
+            image {
+              url
+            }
+          }
+        }
+      }
+      metafields(first: 30, namespace: "brewbench") {
+        nodes {
+          id
+          key
+          value
+          type
+        }
+      }
+      variants(first: 10) {
+        nodes {
+          id
+          sku
+          title
+          price
+          inventoryQuantity
+          selectedOptions {
+            name
+            value
+          }
+          inventoryItem {
+            id
+            tracked
+            inventoryLevels(first: 10) {
+              nodes {
+                id
+                location {
+                  id
+                  name
+                }
+                quantities(names: ["available"]) {
+                  name
+                  quantity
+                }
+              }
+            }
+          }
+          metafields(first: 10, namespace: "brewbench") {
+            nodes {
+              id
+              key
+              value
+              type
+            }
+          }
+        }
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{% doc %}
+  Render specifications for the exact selected variant.
+  @param {product} product - Current product.
+  @param {variant} variant - Exact selected variant, or nil for an unavailable combination.
+  @example
+  {% render 'bb-specifications', product: product, variant: product.selected_or_first_available_variant %}
+{% enddoc %}
+{% if variant != blank %}
+  {%- assign material = variant.metafields.brewbench.material.value | default: product.metafields.brewbench.material.value -%}
+  <div class="bb-specifications">
+    <h2 class="h4">{{ 'brewbench.product.details' | t }}</h2>
+    <dl>
+      {% if material != blank %}<div><dt>{{ 'brewbench.product.material' | t }}</dt><dd>{{ material | escape }}</dd></div>{% endif %}
+      {% if variant.metafields.brewbench.capacity_ml != blank %}<div><dt>{{ 'brewbench.product.capacity' | t }}</dt><dd>{{ variant.metafields.brewbench.capacity_ml.value }} ml</dd></div>{% endif %}
+      <div><dt>{{ 'brewbench.product.sku' | t }}</dt><dd>{{ variant.sku | escape }}</dd></div>
+    </dl>
+    {% if product.metafields.brewbench.care != blank %}<details><summary>{{ 'brewbench.product.care' | t }} <span aria-hidden="true">+</span></summary><div class="rte">{{ product.metafields.brewbench.care | metafield_tag }}</div></details>{% endif %}
+  </div>
+{% endif %}

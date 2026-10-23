@@ -1,0 +1,17 @@
+{% doc %}
+  Render the optional analytics consent panel and sanitized storefront configuration.
+  @example
+  {% render 'bb-consent' %}
+{% enddoc %}
+<div class="bb-consent" data-bb-consent role="region" aria-labelledby="BrewbenchConsentTitle" hidden>
+  <h2 id="BrewbenchConsentTitle">{{ 'brewbench.privacy.heading' | t }}</h2>
+  <p>{{ 'brewbench.privacy.body' | t }} <a href="{{ pages['privacy'].url }}">{{ 'brewbench.privacy.details' | t }}</a></p>
+  <div class="bb-consent__actions"><button type="button" data-consent="reject">{{ 'brewbench.privacy.reject' | t }}</button><button type="button" data-consent="accept">{{ 'brewbench.privacy.accept' | t }}</button><button type="button" data-consent="withdraw">{{ 'brewbench.privacy.withdraw' | t }}</button><button type="button" data-consent="close">{{ 'brewbench.privacy.close' | t }}</button></div>
+  <p data-consent-status role="status"></p>
+</div>
+<script type="application/json" id="BrewbenchContext">{
+  "country":{{ localization.country.iso_code | json }},"locale":{{ request.locale.iso_code | json }},"currency":{{ cart.currency.iso_code | json }},"release":"1.0.0","root":{{ routes.root_url | json }},"experimentEnabled":{{ settings.bb_experiment_enabled | json }},"pageType":{{ request.page_type | json }},
+  "strings":{"error":{{ 'brewbench.common.error' | t | json }},"added":{{ 'brewbench.product.added' | t | json }},"saved":{{ 'brewbench.privacy.saved' | t | json }},"unavailable":{{ 'brewbench.privacy.unavailable' | t | json }},"marketChanged":{{ 'brewbench.market.changed' | t | json }},"cartChanged":{{ 'brewbench.market.cart_changed' | t | json }},"cartUnavailable":{{ 'brewbench.market.cart_unavailable' | t | json }}},
+  "product":{% if product %}{"id":{{ product.id | json }},"type":{{ product.type | json }},"variant":{{ product.selected_or_first_available_variant.id | json }},"price":{{ product.selected_or_first_available_variant.price | json }}}{% else %}null{% endif %}
+}</script>
+<div class="bb-market-notice" role="status" data-bb-market-notice hidden><span></span><a href="{{ routes.cart_url }}">{{ 'brewbench.market.review' | t }}</a></div>

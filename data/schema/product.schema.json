@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "minItems": 24,
+  "maxItems": 24,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "handle",
+      "title",
+      "description",
+      "group",
+      "material",
+      "methods",
+      "beginner",
+      "guide",
+      "excludeCountries",
+      "care",
+      "media",
+      "options",
+      "variants"
+    ],
+    "properties": {
+      "handle": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+      "title": { "$ref": "#/definitions/localized" },
+      "description": { "$ref": "#/definitions/localized" },
+      "group": {
+        "enum": [
+          "Brewers",
+          "Grinders",
+          "Kettles",
+          "Servers",
+          "Filters",
+          "Parts"
+        ]
+      },
+      "material": { "$ref": "#/definitions/localized" },
+      "care": { "$ref": "#/definitions/localized" },
+      "methods": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": { "enum": ["pour-over", "immersion", "travel"] }
+      },
+      "beginner": { "type": "boolean" },
+      "guide": { "type": ["string", "null"] },
+      "excludeCountries": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": { "enum": ["AT", "DE", "GB"] }
+      },
+      "media": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["file", "alt"],
+          "properties": {
+            "file": {
+              "type": "string",
+              "pattern": "^design/assets/[a-z0-9-]+\\.webp$"
+            },
+            "alt": { "$ref": "#/definitions/localized" }
+          }
+        }
+      },
+      "options": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": ["name", "de", "values"],
+          "properties": {
+            "name": { "type": "string" },
+            "de": { "type": "string" },
+            "values": {
+              "type": "array",
+              "uniqueItems": true,
+              "minItems": 1,
+              "items": { "type": "string" }
+            },
+            "translations": {
+              "type": "object",
+              "additionalProperties": { "type": "string" }
+            }
+          }
+        }
+      },
+      "variants": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sku",
+            "options",
+            "price",
+            "weightGrams",
+            "capacityMl",
+            "initialStock",
+            "compatibleSkus"
+          ],
+          "properties": {
+            "sku": { "type": "string", "pattern": "^BB-[A-Z0-9-]+$" },
+            "options": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string" }
+            },
+            "price": { "type": "string", "pattern": "^[0-9]+\\.[0-9]{2}$" },
+            "weightGrams": { "type": "integer", "minimum": 1 },
+            "capacityMl": { "type": ["integer", "null"], "minimum": 1 },
+            "initialStock": { "type": "integer", "minimum": 0 },
+            "compatibleSkus": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "localized": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "de"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "de": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

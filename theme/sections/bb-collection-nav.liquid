@@ -1,0 +1,7 @@
+<nav class="page-width bb-collection-nav" aria-label="{{ 'brewbench.methods.categories' | t | escape }}">
+  {%- assign category_handles = 'brewers,grinders,kettles-servers,filters,replacement-parts,beginner-equipment' | split: ',' -%}
+  {% for handle in category_handles %}{% assign destination = collections[handle] %}{% if destination != blank %}<a href="{{ destination.url }}"{% if collection.handle == handle %} aria-current="page"{% endif %}>{{ destination.title | escape }}</a>{% endif %}{% endfor %}
+</nav>
+{% schema %}
+{"name":"Brewbench category links","settings":[],"presets":[{"name":"Brewbench category links"}]}
+{% endschema %}

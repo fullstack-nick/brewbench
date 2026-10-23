@@ -1,0 +1,14 @@
+{%- assign guide = product.metafields.brewbench.guide.value -%}
+{% if guide != blank %}
+  <section class="bb-guide page-width bb-section" aria-labelledby="GuideHeading-{{ section.id }}">
+    <div class="bb-guide__intro"><p class="bb-eyebrow">{{ 'brewbench.guide.eyebrow' | t }}</p><h2 id="GuideHeading-{{ section.id }}">{{ guide.title.value | escape }}</h2><p>{{ guide.introduction.value | escape }}</p><a class="bb-text-link" href="{{ pages['buying-guide'].url }}">{{ 'brewbench.guide.more' | t }} <span aria-hidden="true">↗</span></a></div>
+    <ol class="bb-guide__steps">
+      {% for step in guide.steps.value %}
+        <li><span class="bb-step-number" aria-hidden="true">0{{ forloop.index }}</span><div><h3>{{ step.heading.value | escape }}</h3><p>{{ step.body.value | escape }}</p>{% if step.duration_seconds != blank %}<span class="bb-eyebrow">{{ step.duration_seconds.value }} {{ 'brewbench.guide.seconds' | t }}</span>{% endif %}</div></li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endif %}
+{% schema %}
+{"name":"Brewbench shared guide","settings":[],"presets":[{"name":"Brewbench shared guide"}]}
+{% endschema %}

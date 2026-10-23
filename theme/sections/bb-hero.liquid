@@ -1,0 +1,45 @@
+{%- liquid
+  assign heading = section.settings.heading
+  assign text = section.settings.text
+  if request.locale.iso_code == 'de'
+    assign heading = section.settings.heading_de | default: heading
+    assign text = section.settings.text_de | default: text
+  endif
+-%}
+<section class="bb-hero page-width" aria-labelledby="HeroHeading-{{ section.id }}">
+  <div class="bb-hero__copy">
+    <p class="bb-eyebrow"><span class="bb-dot"></span>{{ 'brewbench.hero.eyebrow' | t }}</p>
+    <h1 id="HeroHeading-{{ section.id }}">{{ heading | escape }}</h1>
+    <p class="bb-hero__intro">{{ text | escape }}</p>
+    <div class="bb-actions">
+      <a class="button" href="{{ section.settings.collection.url | default: routes.all_products_collection_url }}">{{ 'brewbench.hero.shop' | t }} <span aria-hidden="true">↗</span></a>
+      <a class="bb-text-link" href="{{ pages['buying-guide'].url }}">{{ 'brewbench.hero.guide' | t }} <span aria-hidden="true">→</span></a>
+    </div>
+    <p class="bb-hero__footnote">{{ 'brewbench.hero.note' | t }}</p>
+  </div>
+  <figure class="bb-hero__visual" style="--bb-mobile-position: {{ section.settings.mobile_position }}%;">
+    {% if section.settings.image != blank %}
+      {{ section.settings.image | image_url: width: 1800 | image_tag: widths: '480,750,1100,1500,1800', sizes: '(min-width: 990px) 55vw, 100vw', loading: 'eager', fetchpriority: 'high' }}
+    {% elsif section.settings.use_original_image %}
+      <img src="{{ 'bb-morning-ritual-1100.webp' | asset_url }}" srcset="{{ 'bb-morning-ritual-480.webp' | asset_url }} 480w, {{ 'bb-morning-ritual-750.webp' | asset_url }} 750w, {{ 'bb-morning-ritual-1100.webp' | asset_url }} 1100w, {{ 'bb-morning-ritual-1536.webp' | asset_url }} 1536w" sizes="(min-width: 990px) 55vw, calc(100vw - 40px)" width="1536" height="1024" alt="{{ 'brewbench.hero.image_alt' | t | escape }}" loading="eager" fetchpriority="high">
+    {% else %}
+      <div class="bb-hero__empty" aria-hidden="true"><span>brew.<br>pause.<br>repeat.</span></div>
+    {% endif %}
+    <figcaption><span>{{ 'brewbench.hero.caption' | t }}</span><span aria-hidden="true">BREW / 01</span></figcaption>
+  </figure>
+</section>
+{% schema %}
+{
+  "name":"Brewbench editorial hero","tag":"section","class":"bb-hero-section",
+  "settings":[
+    {"type":"text","id":"heading","label":"Heading (English)","default":"Good coffee. Your own ritual."},
+    {"type":"text","id":"heading_de","label":"Heading (German)","default":"Guter Kaffee. Dein eigenes Ritual."},
+    {"type":"textarea","id":"text","label":"Copy (English)","default":"Thoughtful tools for slower mornings. Find your brewing method, build your setup, and make every cup your own."},
+    {"type":"textarea","id":"text_de","label":"Copy (German)","default":"Durchdachte Werkzeuge für entspannte Morgen. Finde deine Brühmethode, stelle deine Ausstattung zusammen und mache jede Tasse zu deiner."},
+    {"type":"collection","id":"collection","label":"Shop destination"},
+    {"type":"image_picker","id":"image","label":"Editorial image"},
+    {"type":"checkbox","id":"use_original_image","label":"Use included original photograph","default":true},
+    {"type":"range","id":"mobile_position","label":"Mobile crop position","min":0,"max":100,"step":5,"unit":"%","default":55}
+  ],"presets":[{"name":"Brewbench editorial hero"}]
+}
+{% endschema %}

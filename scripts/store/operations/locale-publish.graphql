@@ -1,0 +1,19 @@
+mutation LocalePublish($webPresences: [ID!]!) {
+  shopLocaleUpdate(
+    locale: "de"
+    shopLocale: { published: true, marketWebPresenceIds: $webPresences }
+  ) {
+    shopLocale {
+      locale
+      primary
+      published
+      marketWebPresences {
+        id
+      }
+    }
+    userErrors {
+      field
+      message
+    }
+  }
+}

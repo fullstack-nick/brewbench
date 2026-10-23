@@ -1,0 +1,93 @@
+{
+  "at": "2026-10-23T07:48:03.536Z",
+  "phase": "release",
+  "liveThemeMatched": true,
+  "routes": [
+    {
+      "path": "/collections/brewers",
+      "status": 200,
+      "heading": "Collection:\nBrewers"
+    },
+    {
+      "path": "/products/cone-brewer",
+      "status": 200,
+      "heading": "Cone Brewer"
+    },
+    {
+      "path": "/de/products/cone-brewer",
+      "status": 200,
+      "heading": "Kegelfilter aus Keramik"
+    },
+    {
+      "path": "/pages/buying-guide",
+      "status": 200,
+      "heading": "Find your morning ritual"
+    },
+    {
+      "path": "/pages/delivery",
+      "status": 200,
+      "heading": "Delivery & the practice store"
+    },
+    {
+      "path": "/pages/faq",
+      "status": 200,
+      "heading": "A few good questions"
+    },
+    {
+      "path": "/cart",
+      "status": 200,
+      "heading": "Your cart"
+    },
+    {
+      "path": "/search?q=brewer",
+      "status": 200,
+      "heading": "Search results"
+    },
+    {
+      "path": "/a-page-that-does-not-exist",
+      "status": 404,
+      "heading": "Page not found"
+    }
+  ],
+  "seo": {
+    "title": "Cone Brewer | Brewbench",
+    "descriptionPresent": true,
+    "canonical": "/products/cone-brewer",
+    "alternates": [
+      {
+        "language": "x-default",
+        "path": "/products/cone-brewer"
+      },
+      {
+        "language": "en",
+        "path": "/products/cone-brewer"
+      },
+      {
+        "language": "de",
+        "path": "/de/products/cone-brewer"
+      }
+    ],
+    "productStructuredData": true,
+    "structuredDataType": "ProductGroup",
+    "variants": [
+      {
+        "type": "Product",
+        "sku": "BB-CONE-01-CHALK",
+        "currency": "EUR",
+        "price": "32.00"
+      },
+      {
+        "type": "Product",
+        "sku": "BB-CONE-01-OLIVE",
+        "currency": "EUR",
+        "price": "32.00"
+      },
+      {
+        "type": "Product",
+        "sku": "BB-CONE-02-CHALK",
+        "currency": "EUR",
+        "price": "38.00"
+      }
+    ]
+  }
+}

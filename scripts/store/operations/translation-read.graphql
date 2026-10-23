@@ -1,0 +1,16 @@
+query TranslationRead($resourceId: ID!) {
+  translatableResource(resourceId: $resourceId) {
+    resourceId
+    translatableContent {
+      key
+      value
+      digest
+      locale
+    }
+    translations(locale: "de") {
+      key
+      value
+      outdated
+    }
+  }
+}

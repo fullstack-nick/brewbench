@@ -1,0 +1,28 @@
+query Collections($after: String) {
+  collections(first: 10, after: $after) {
+    nodes {
+      id
+      handle
+      title
+      descriptionHtml
+      sources {
+        id
+        title
+      }
+      products(first: 30) {
+        nodes {
+          id
+          handle
+        }
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

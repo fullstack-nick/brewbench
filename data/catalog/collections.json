@@ -1,0 +1,188 @@
+[
+  {
+    "handle": "brewers",
+    "title": {
+      "en": "Brewers",
+      "de": "Kaffeebereiter"
+    },
+    "description": {
+      "en": "Find your morning method. From a deliberate pour-over to an easy immersion brew.",
+      "de": "Finde deine Morgenroutine. Vom bewussten Handaufguss bis zum einfachen Immersionskaffee."
+    },
+    "products": [
+      "cone-brewer",
+      "flatbed-brewer",
+      "immersion-brewer",
+      "french-press",
+      "travel-brewer"
+    ]
+  },
+  {
+    "handle": "grinders",
+    "title": {
+      "en": "Grinders",
+      "de": "Mühlen"
+    },
+    "description": {
+      "en": "A fresh grind is a small change with a noticeable difference.",
+      "de": "Frisch mahlen: eine kleine Veränderung, die du schmeckst."
+    },
+    "products": [
+      "burr-hand-grinder",
+      "compact-hand-grinder",
+      "precision-hand-grinder",
+      "travel-hand-grinder"
+    ]
+  },
+  {
+    "handle": "kettles-servers",
+    "title": {
+      "en": "Kettles & Servers",
+      "de": "Kessel & Kannen"
+    },
+    "description": {
+      "en": "Pour with care. Serve with ease.",
+      "de": "Bewusst aufgießen. Einfach servieren."
+    },
+    "products": [
+      "gooseneck-kettle",
+      "stovetop-kettle",
+      "pouring-jug",
+      "glass-carafe",
+      "thermal-carafe",
+      "small-glass-server"
+    ]
+  },
+  {
+    "handle": "filters",
+    "title": {
+      "en": "Filters",
+      "de": "Filter"
+    },
+    "description": {
+      "en": "The right paper or mesh for the brewer you already love.",
+      "de": "Das passende Papier oder Sieb für deinen Lieblingsbereiter."
+    },
+    "products": [
+      "cone-paper-filters-01",
+      "cone-paper-filters-02",
+      "flatbed-paper-filters",
+      "reusable-cone-filter",
+      "press-mesh-filter"
+    ]
+  },
+  {
+    "handle": "replacement-parts",
+    "title": {
+      "en": "Replacement Parts",
+      "de": "Ersatzteile"
+    },
+    "description": {
+      "en": "Keep a good thing going. Check the exact fit before adding a part.",
+      "de": "Gutes erhalten. Prüfe vor dem Kauf die genaue Passform."
+    },
+    "products": [
+      "brewer-seal-ring",
+      "grinder-burr-set",
+      "carafe-lid",
+      "press-plunger"
+    ]
+  },
+  {
+    "handle": "beginner-equipment",
+    "title": {
+      "en": "Beginner Equipment",
+      "de": "Für den Einstieg"
+    },
+    "description": {
+      "en": "A thoughtful first setup. Start simply, then make it yours.",
+      "de": "Eine durchdachte erste Ausstattung. Einfach anfangen, dann deinen Weg finden."
+    },
+    "products": [
+      "cone-brewer",
+      "flatbed-brewer",
+      "immersion-brewer",
+      "french-press",
+      "burr-hand-grinder",
+      "compact-hand-grinder",
+      "gooseneck-kettle",
+      "glass-carafe",
+      "small-glass-server",
+      "cone-paper-filters-01",
+      "cone-paper-filters-02",
+      "flatbed-paper-filters"
+    ]
+  },
+  {
+    "handle": "pour-over",
+    "title": {
+      "en": "Pour-over",
+      "de": "Handaufguss"
+    },
+    "description": {
+      "en": "A little attention, one beautiful cup.",
+      "de": "Ein wenig Aufmerksamkeit, eine schöne Tasse."
+    },
+    "products": [
+      "cone-brewer",
+      "flatbed-brewer",
+      "burr-hand-grinder",
+      "compact-hand-grinder",
+      "precision-hand-grinder",
+      "gooseneck-kettle",
+      "stovetop-kettle",
+      "pouring-jug",
+      "glass-carafe",
+      "thermal-carafe",
+      "small-glass-server",
+      "cone-paper-filters-01",
+      "cone-paper-filters-02",
+      "flatbed-paper-filters",
+      "reusable-cone-filter",
+      "grinder-burr-set",
+      "carafe-lid"
+    ]
+  },
+  {
+    "handle": "immersion",
+    "title": {
+      "en": "Immersion",
+      "de": "Immersion"
+    },
+    "description": {
+      "en": "Let time do the work.",
+      "de": "Lass die Zeit für dich arbeiten."
+    },
+    "products": [
+      "immersion-brewer",
+      "french-press",
+      "burr-hand-grinder",
+      "precision-hand-grinder",
+      "stovetop-kettle",
+      "thermal-carafe",
+      "press-mesh-filter",
+      "brewer-seal-ring",
+      "grinder-burr-set",
+      "press-plunger"
+    ]
+  },
+  {
+    "handle": "travel",
+    "title": {
+      "en": "On the go",
+      "de": "Unterwegs"
+    },
+    "description": {
+      "en": "Your ritual, a little further from home.",
+      "de": "Dein Ritual – ein Stück weiter von zu Hause."
+    },
+    "products": [
+      "travel-brewer",
+      "compact-hand-grinder",
+      "travel-hand-grinder",
+      "pouring-jug",
+      "small-glass-server",
+      "brewer-seal-ring"
+    ]
+  }
+]

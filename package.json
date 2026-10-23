@@ -1,0 +1,33 @@
+{
+  "name": "brewbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An independently designed, bilingual Shopify theme and repeatable practice-store toolkit.",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "check": "npm run data:validate && npm test && npm run format:check",
+    "test": "node --test tests/unit/*.test.mjs",
+    "data:validate": "node scripts/validate-data.mjs",
+    "format": "prettier --write scripts data analytics tests design/tokens.json package.json",
+    "format:check": "prettier --check scripts data analytics tests design/tokens.json package.json",
+    "theme:check": "shopify theme check --path theme",
+    "store:plan": "node scripts/store/run.mjs plan",
+    "store:apply": "node scripts/store/run.mjs apply",
+    "store:verify": "node scripts/store/run.mjs verify",
+    "store:snapshot": "node scripts/store/run.mjs snapshot",
+    "store:inventory-reset": "node scripts/store/run.mjs inventory-reset",
+    "test:browser": "playwright test",
+    "analytics:report": "node analytics/analyze.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "ajv": "8.20.0",
+    "lighthouse": "13.5.0",
+    "prettier": "3.9.10",
+    "sharp": "0.35.5"
+  }
+}

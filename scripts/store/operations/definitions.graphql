@@ -1,0 +1,21 @@
+query Definitions($owner: MetafieldOwnerType!, $after: String) {
+  metafieldDefinitions(
+    first: 50
+    after: $after
+    namespace: "brewbench"
+    ownerType: $owner
+  ) {
+    nodes {
+      id
+      key
+      name
+      type {
+        name
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

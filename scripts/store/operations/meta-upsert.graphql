@@ -1,0 +1,20 @@
+mutation MetaUpsert(
+  $handle: MetaobjectHandleInput!
+  $metaobject: MetaobjectUpsertInput!
+) {
+  metaobjectUpsert(handle: $handle, metaobject: $metaobject) {
+    metaobject {
+      id
+      handle
+      fields {
+        key
+        value
+      }
+    }
+    userErrors {
+      field
+      message
+      code
+    }
+  }
+}

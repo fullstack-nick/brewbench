@@ -1,0 +1,15 @@
+query MediaStatus($ids: [ID!]!) {
+  nodes(ids: $ids) {
+    ... on MediaImage {
+      id
+      status
+      image {
+        url
+      }
+      mediaErrors {
+        code
+        message
+      }
+    }
+  }
+}

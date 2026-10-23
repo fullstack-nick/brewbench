@@ -1,0 +1,12 @@
+mutation WebPresenceCreate($input: WebPresenceCreateInput!) {
+  webPresenceCreate(input: $input) {
+    webPresence {
+      id
+    }
+    userErrors {
+      field
+      message
+      code
+    }
+  }
+}
